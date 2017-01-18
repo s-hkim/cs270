@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+nav {
+  width: 200px;
+	float: right;
+  margin-left: 5px;
+	padding: 5px;
+	border: 2px solid black;
+}
+.title {
+  padding: 5px;
+  text-align: center;
+  background-color: #7B7474;
+  color: white;
+}
+.center {
+  text-align: center;
+}
+.end {
+  background-color: #7B7474;
+  color: white;
+}
+#img1 {
+  border: 5px solid black;
+}
