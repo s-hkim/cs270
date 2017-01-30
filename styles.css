@@ -8,7 +8,7 @@ nav {
 	padding: 5px;
 	border: 2px solid black;
 }
-.title {
+header {
   padding: 5px;
   text-align: center;
   background-color: #7B7474;
@@ -17,7 +17,11 @@ nav {
 .center {
   text-align: center;
 }
-.end {
+.fitem {
+  margin: auto;
+}
+footer {
+ display: flex;
   background-color: #7B7474;
   color: white;
 }
