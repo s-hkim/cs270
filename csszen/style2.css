@@ -16,13 +16,23 @@ html {
 	padding: 0;
 	}
 body {
-	font: 150% georgia, sans-serif;
+	font: 2.5rem georgia, sans-serif;
+	text-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 	line-height: 1.88889;
 	color: #555753;
-	background: #fff;
+	background: url("spacey.png") fixed repeat;
 	margin: 0;
 	padding: 0;
 	}
+/*body::before {
+	background-color: #fff;
+	overflow: hidden;
+	content: " ";
+	position: fixed;
+	margin: 2.5%;
+	width: 95%;
+	height: 90%;
+}*/
 p {
 	margin-top: 0;
 	text-align: justify;
@@ -31,7 +41,6 @@ h3 {
 	font: italic normal 1.4em georgia, sans-serif;
 	letter-spacing: 1px;
 	margin-bottom: 0;
-	color: #7D775C;
 	}
 a:link {
 	font-weight: bold;
@@ -57,6 +66,10 @@ abbr {
 	padding: 0 175px 0 110px;
 	margin: 0;
 	position: relative;
+	background: url("spacey.png") repeat;
+	-webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display:block;
 	}
 
 .intro {
@@ -92,9 +105,8 @@ header {
 
 .summary {
 	clear: both;
+	padding-top: 20px;
 	margin: 20px 20px 20px 10px;
-	width: 160px;
-	float: left;
 	}
 .summary p {
 	font: italic 1.1em/2.2 georgia;
@@ -118,45 +130,15 @@ footer a:link, footer a:visited {
 	}
 
 .sidebar {
-	margin-left: 600px;
-	position: absolute;
-	top: 0;
-	right: 0;
+	text-align: center;
 	}
 .sidebar .wrapper {
 	font: 10px verdana, sans-serif;
 	background: transparent;
 	padding: 10px;
-	margin-top: 150px;
-	width: 130px;
+	margin-bottom: 50px	;
 	}
-.sidebar h3.select {
-	background: transparent;
-	margin: 10px 0 5px 0;
-	width: 97px;
-	height: 16px;
 
-	white-space: nowrap;
-	/*overflow: hidden;*/
-	}
-.sidebar h3.archives {
-	background: transparent ;
-	margin: 25px 0 5px 0;
-	width:57px;
-	height: 14px;
-
-	white-space: nowrap;
-	/*overflow: hidden;*/
-	}
-.sidebar h3.resources {
-	background: transparent ;
-	margin: 25px 0 5px 0;
-	width:63px;
-	height: 10px;
-
-	white-space: nowrap;
-	/*overflow: hidden;*/
-	}
 
 
 .sidebar ul {

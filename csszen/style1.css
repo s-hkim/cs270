@@ -134,7 +134,11 @@ footer a:link, footer a:visited {
 
 
 
-/*add the "TV" overlay, to feel like an old monitor: */
+/*
+Adds the "TV" overlay, to feel like an old monitor.
+To make it responsive, the overlay is split into 8 pieces: 4 corners and 4 sides.
+*/
+/* The extra divs are used for the corners */
 .extra1 {
 	/*adds the left corner of the TV*/
 	background: transparent url("toplefttv.png") fixed no-repeat left top;
@@ -145,7 +149,31 @@ footer a:link, footer a:visited {
 	width: 50%;
 	height: 50%;
 }
-/*pseudo-elements for the filler parts, because I ran out of extra divs*/
+.extra2 {
+	background: transparent url("toprighttv.png") fixed no-repeat right top;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 50%;
+}
+.extra3 {
+	background: transparent url("botlefttv.png") fixed no-repeat left bottom;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 50%;
+	height: 50%;
+}
+.extra4 {
+	background: transparent url("botrighttv.png") fixed no-repeat right bottom;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 50%;
+	height: 50%;
+}
+/*pseudo-elements for the side/filler parts, because I ran out of extra divs*/
 body::after {
 	background: transparent url("toptv.png") fixed repeat-x top;
 	content: "_";
@@ -193,29 +221,4 @@ body::before {
 	bottom: 405px;
 	width: auto;
 	height: auto;
-}
-
-.extra2 {
-	background: transparent url("toprighttv.png") fixed no-repeat right top;
-	position: fixed;
-	top: 0;
-	right: 0;
-	width: 50%;
-	height: 50%;
-}
-.extra3 {
-	background: transparent url("botlefttv.png") fixed no-repeat left bottom;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: 50%;
-	height: 50%;
-}
-.extra4 {
-	background: transparent url("botrighttv.png") fixed no-repeat right bottom;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	width: 50%;
-	height: 50%;
 }
