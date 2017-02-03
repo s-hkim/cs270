@@ -10,29 +10,28 @@
 /* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
 
 
+/*
+A stylesheet to make the css Zen Garden page text look like it's shimmering
+It makes the page pretty much impossible to read, but looks kind of neat
+*/
+
 /* basic elements */
 html {
 	margin: 0;
 	padding: 0;
 	}
 body {
-	font: 2.5rem georgia, sans-serif;
-	text-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+	font: bold 2.5rem georgia, sans-serif;
+	/* Add a white text shadow to the text to help show where it is and give a ephemeral look*/
+	text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
 	line-height: 1.88889;
 	color: #555753;
+	/* Add the space background */
 	background: url("spacey.png") fixed repeat;
 	margin: 0;
 	padding: 0;
 	}
-/*body::before {
-	background-color: #fff;
-	overflow: hidden;
-	content: " ";
-	position: fixed;
-	margin: 2.5%;
-	width: 95%;
-	height: 90%;
-}*/
+
 p {
 	margin-top: 0;
 	text-align: justify;
@@ -66,10 +65,15 @@ abbr {
 	padding: 0 175px 0 110px;
 	margin: 0;
 	position: relative;
+	/* make all of the text out of the space background image
+	Since this is the same image as the background, it makes the text twinkle as you scroll
+	*/
 	background: url("spacey.png") repeat;
 	-webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   display:block;
+	/* fall back to white if the background shenanigans fail*/
+	color: white;
 	}
 
 .intro {
