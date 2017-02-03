@@ -10,46 +10,67 @@
 /* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
 
 
+
+/*
+A stylesheet to make the css Zen Garden page look a bit like DOS
+*/
+
 /* basic elements */
 html {
 	margin: 0;
 	padding: 0;
 	}
 body {
-	font: 75% georgia, sans-serif;
+	/* change font to terminal*/
+	font: 150% fixedsys, LucidaTerminal, monospace;
 	line-height: 1.88889;
-	color: #555753;
-	background: #fff;
+	color: white;
+	/* looks kind of like the right shade of blue*/
+	background: #0039cc;
 	margin: 0;
+	margin-top: 20px;
 	padding: 0;
+	overflow: auto;
 	}
 p {
 	margin-top: 0;
-	text-align: justify;
 	}
+h1 {
+	/*make headers the same size as everything else*/
+	font-size: inherit;
+	margin: 0;
+}
+h1::before, h2::before, h3::before {
+	/*add a line before each header, to block out the text*/
+	content: '===========================================================================================================================================';
+	/*hide overflow so that the line doesn't go off the page*/
+	overflow: hidden;
+	display: block;
+}
+h2 {
+	/*make headers the same size as everything else*/
+	font-size: inherit;
+}
 h3 {
-	font: italic normal 1.4em georgia, sans-serif;
-	letter-spacing: 1px;
-	margin-bottom: 0;
-	color: #7D775C;
-	}
+	/*make headers the same size as everything else*/
+	font-size: inherit;
+}
+/*make links look the same as all other text*/
 a:link {
-	font-weight: bold;
 	text-decoration: none;
-	color: #B7A5DF;
+	color: white;
 	}
 a:visited {
-	font-weight: bold;
 	text-decoration: none;
-	color: #D4CDDC;
+	color: white;
 	}
 a:hover, a:focus, a:active {
-	text-decoration: underline;
-	color: #9685BA;
+	text-decoration: none;
+	color: white;
 	}
 abbr {
 	border-bottom: none;
-	}
+}
 
 
 /* specific divs */
@@ -60,103 +81,41 @@ abbr {
 	}
 
 .intro {
-	min-width: 470px;
 	width: 100%;
-	}
-
-header h1 {
-	background: transparent ;
-	margin-top: 10px;
-	display: block;
-	width: 219px;
-	height: 87px;
-	float: left;
-
-	white-space: nowrap;
-	/*overflow: hidden;*/
-	}
-header h2 {
-	background: transparent;
-	margin-top: 58px;
-	margin-bottom: 40px;
-	width: 200px;
-	height: 18px;
-	float: right;
-
-	white-space: nowrap;
-	/*overflow: hidden;*/
-	}
-header {
-	padding-top: 20px;
-	height: 87px;
 }
 
-.summary {
-	clear: both;
-	margin: 20px 20px 20px 10px;
-	width: 160px;
-	float: left;
-	}
-.summary p {
-	font: italic 1.1em/2.2 georgia;
-	text-align: center;
-	}
+header {
+	padding-top: 20px;
+}
 
 .preamble {
 	clear: right;
-	padding: 0px 10px 0 10px;
 	}
 .supporting {
-	padding-left: 10px;
 	margin-bottom: 40px;
-	}
+}
 
-footer {
-	text-align: center;
-	}
 footer a:link, footer a:visited {
 	margin-right: 20px;
-	}
+}
 
-.sidebar {
-	margin-left: 600px;
-	position: absolute;
-	top: 0;
-	right: 0;
-	}
 .sidebar .wrapper {
-	font: 10px verdana, sans-serif;
-	background: transparent;
-	padding: 10px;
+	padding-bottom: 20px;
 	margin-top: 150px;
-	width: 130px;
 	}
 .sidebar h3.select {
-	background: transparent;
 	margin: 10px 0 5px 0;
-	width: 97px;
-	height: 16px;
 
 	white-space: nowrap;
-	/*overflow: hidden;*/
 	}
 .sidebar h3.archives {
-	background: transparent ;
 	margin: 25px 0 5px 0;
-	width:57px;
-	height: 14px;
 
 	white-space: nowrap;
-	/*overflow: hidden;*/
 	}
 .sidebar h3.resources {
-	background: transparent ;
 	margin: 25px 0 5px 0;
-	width:63px;
-	height: 10px;
-
 	white-space: nowrap;
-	/*overflow: hidden;*/
 	}
 
 
@@ -166,25 +125,97 @@ footer a:link, footer a:visited {
 	}
 .sidebar li {
 	line-height: 1.3em;
-	background: transparent ;
 	display: block;
 	padding-top: 5px;
 	margin-bottom: 5px;
 	list-style-type: none;
 	}
-.sidebar li a:link {
-	color: #988F5E;
-	}
-.sidebar li a:visited {
-	color: #B3AE94;
-	}
 
 
+
+
+/*add the "TV" overlay, to feel like an old monitor: */
 .extra1 {
-	background: transparent ;
-	position: absolute;
-	top: 40px;
+	/*adds the left corner of the TV*/
+	background: transparent url("toplefttv.png") fixed no-repeat left top;
+	position: fixed;
+	top: 0;
+	left: 0;
+	/*make sure that the image stays in the top left quadrant*/
+	width: 50%;
+	height: 50%;
+}
+/*pseudo-elements for the filler parts, because I ran out of extra divs*/
+body::after {
+	background: transparent url("toptv.png") fixed repeat-x top;
+	content: "_";
+	text-indent: 100%;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	left: 540.5px;
+	right: 540.5px;
+	width: auto;
+	height: auto;
+}
+body::before {
+	background: transparent url("lefttv.png") fixed repeat-y left;
+	content: "_";
+	text-indent: 100%;
+	position: fixed;
+	text-align: center;
+	top: 406px;
+	left: 0;
+	bottom: 405.5px;
+	width: auto;
+	height: auto;
+}
+.page-wrapper::before {
+	background: transparent url("bottv.png") fixed repeat-x bottom;
+	content: "_";
+	text-indent: 100%;
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	left: 540.5px;
+	right: 540.5px;
+	width: auto;
+	height: auto;
+}
+.page-wrapper::after {
+	background: transparent url("righttv.png") fixed repeat-y right;
+	content: "_";
+	text-indent: 100%;
+	position: fixed;
+	text-align: center;
+	top: 405px;
 	right: 0;
-	width: 148px;
-	height: 110px;
-	}
+	bottom: 405px;
+	width: auto;
+	height: auto;
+}
+
+.extra2 {
+	background: transparent url("toprighttv.png") fixed no-repeat right top;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 50%;
+}
+.extra3 {
+	background: transparent url("botlefttv.png") fixed no-repeat left bottom;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 50%;
+	height: 50%;
+}
+.extra4 {
+	background: transparent url("botrighttv.png") fixed no-repeat right bottom;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 50%;
+	height: 50%;
+}

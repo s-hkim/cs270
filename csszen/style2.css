@@ -16,7 +16,7 @@ html {
 	padding: 0;
 	}
 body {
-	font: 75% georgia, sans-serif;
+	font: 150% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753;
 	background: #fff;
@@ -79,7 +79,6 @@ header h2 {
 	background: transparent;
 	margin-top: 58px;
 	margin-bottom: 40px;
-	width: 200px;
 	height: 18px;
 	float: right;
 
