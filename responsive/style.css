@@ -1,10 +1,5 @@
-@base-color: #abcdef;
-@small-color: lightblue;
-@small-border-color: gray;
-@mini-border-color: black;
-
 body {
-    background-color: @base-color;
+
 }
 h1, h2, .entry-header {
   text-align: center;
@@ -21,10 +16,10 @@ img {
 
 @media only screen and (max-width: 768px) {
     body {
-        background-color: @small-color;
+        background-color: lightblue;
     }
     .entry-main {
-      border: 2px solid @mini-border-color;
+      border: 2px solid black;
     }
     .entry-content {
       display: none;
@@ -36,7 +31,7 @@ img {
 
 @media only screen and (max-width: 1024px) {
     body {
-        background-color: @small-color;
+        background-color: lightblue;
         font-size: 2rem;
     }
     .entry::before {
@@ -47,13 +42,13 @@ img {
       display: block;
       height: 2px;
       width: 100%;
-      background: @small-border-color;
+      background: gray;
     }
     .navbar {
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
-      background-color: @base-color;
+      background-color: #abcdef;
     }
 }
