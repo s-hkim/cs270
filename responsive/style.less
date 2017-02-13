@@ -2,17 +2,19 @@
 @small-color: lightblue;
 @small-border-color: gray;
 @mini-border-color: black;
+@space: "\00a0";
 
 body {
     background-color: @base-color;
 }
-h1, h2, .entry-header {
+h1, h2, .entry-header, footer {
   text-align: center;
 }
 img {
   width: 100%;
   height: 100%;
 }
+// make the logo smaller
 .site-logo-box {
   margin: auto;
   width:50%;
@@ -20,28 +22,34 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-    body {
-        background-color: @small-color;
-    }
+    // add a border around every post
     .entry-main {
       border: 2px solid @mini-border-color;
     }
+    // hide the content and make the titles larger for readability
     .entry-content {
       display: none;
     }
     .entry-title {
       font-weight: bold;
     }
+    // add filler between posts
+    .entry::after {
+      content: @space;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
+    // make text larger and easier to read
     body {
         background-color: @small-color;
         font-size: 2rem;
     }
+    // add filler before posts
     .entry::before {
-      content: "\00a0";
+      content: @space;
     }
+    // add a line to separate posts
     .entry::after {
       content: "";
       display: block;
@@ -49,6 +57,7 @@ img {
       width: 100%;
       background: @small-border-color;
     }
+    // fix the navbar on smaller screens
     .navbar {
       position: fixed;
       top: 0;
