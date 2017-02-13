@@ -21,24 +21,6 @@ img {
   height:50%;
 }
 
-@media only screen and (max-width: 768px) {
-    // add a border around every post
-    .entry-main {
-      border: 2px solid @mini-border-color;
-    }
-    // hide the content and make the titles larger for readability
-    .entry-content {
-      display: none;
-    }
-    .entry-title {
-      font-weight: bold;
-    }
-    // add filler between posts
-    .entry::after {
-      content: @space;
-    }
-}
-
 @media only screen and (max-width: 1024px) {
     // make text larger and easier to read
     body {
@@ -64,5 +46,23 @@ img {
       left: 0;
       width: 100%;
       background-color: @base-color;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    // add a border around every post
+    .entry-main {
+      border: 2px solid @mini-border-color;
+    }
+    // hide the content and make the titles larger for readability
+    .entry-content {
+      display: none;
+    }
+    .entry-title {
+      font-weight: bold;
+    }
+    // add filler between posts
+    .entry::after {
+      content: @space;
     }
 }
