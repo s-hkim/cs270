@@ -187,15 +187,15 @@ function displayData (data) {
 
   // style existing circles
   var nodes = csvg.selectAll("circle")
-    .data(data_map.entries())
-      .attr("r", d => r(d.value))
+    .data(data_map.entries());
   // create new circles for new data entries
   nodes.enter().append("circle")
-      // .merge(nodes)    causes major performance issues
-      .attr("r", d => r(d.value))
       .attr("cx", d => x(d.key))
       .attr("cy", d => y(d.key))
-      .style("fill", d => color(hashString(d.key)));
+      .style("fill", d => color(hashString(d.key)))
+      .merge(nodes)
+      .transition()
+      .attr("r", d => r(d.value));
   // delete circles for data outside the window
   nodes.exit().remove();
 };
