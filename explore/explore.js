@@ -3,9 +3,11 @@
 */
 
 const URL = "https://stream.wikimedia.org/v2/stream/recentchange";
-const DATA_MAX = 100;
+const DATA_MAX = 200;
 
 // what an eyesore
+// Mapping of top 20 wikipedia language prefixes to locations on the map
+// In other words, the circles on the map don't actually correspond to locations of edits
 var code_map = d3.map()
                 .set("en",{
                   "x" : "18%",
@@ -52,12 +54,43 @@ var code_map = d3.map()
                   "y" : "14.7%"
                 })
                 .set("vi",{
-                  "x" : "60%",
+                  "x" : "62.2%",
                   "y" : "37%"
+                })
+                .set("ja",{
+                  "x" : "69%",
+                  "y" : "24%"
+                })
+                .set("pt",{
+                  "x" : "37%",
+                  "y" : "22%"
+                })
+                .set("zh",{
+                  "x" : "63%",
+                  "y" : "24%"
+                })
+                .set("uk",{
+                  "x" : "46%",
+                  "y" : "15.5%"
+                })
+                .set("ca",{
+                  "x" : "39%",
+                  "y" : "21.5%"
+                })
+                .set("fa",{
+                  "x" : "49%",
+                  "y" : "24.3%"
+                })
+                .set("ar",{
+                  "x" : "48%",
+                  "y" : "29%"
+                })
+                .set("no",{
+                  "x" : "40.5%",
+                  "y" : "7%"
                 });
 
 
-// console.log(code_map)
 
 var source;
 var data_queue = [];
@@ -69,12 +102,9 @@ var csvg = d3.select("body")
               .attr("height", 600)
               .attr("width", "100%");
 var wmap = csvg.append("g");
-var path = d3.geoPath(d3.geoOrthographic()).projection(d3.geoMercator());
-// console.log(wmap)
+var path = d3.geoPath().projection(d3.geoMercator());
 
-// var context = d3.select("canvas").node().getContext("2d"),
-//     path = d3.geoPath(d3.geoOrthographic(), context);
-
+// draw a typical map (mercator projection) using topojson
 d3.json("https://d3js.org/world-110m.v1.json", function(error, world) {
   if (error) throw error;
 
@@ -86,8 +116,6 @@ d3.json("https://d3js.org/world-110m.v1.json", function(error, world) {
       .attr("fill","gray")
 });
 
-
-
 if (!!window.EventSource) {
   source = new EventSource(URL);
 } else {
@@ -95,6 +123,7 @@ if (!!window.EventSource) {
 }
 
 // from https://stackoverflow.com/questions/7616461/generate-a-hash-from-string-in-javascript-jquery
+// Hash function so that I can assign colors to wikis programmatically
 function hashString (str) {
   var hash = 0,
       i,
@@ -104,50 +133,41 @@ function hashString (str) {
   for (i = 0, len = str.length; i < len; i++) {
     chr   = str.charCodeAt(i);
     hash  = ((hash << 5) - hash) + chr;
-    hash |= 0; // Convert to 32bit integer
+    hash |= 0;
   }
   return hash;
 };
+// Function to get the wiki prefix
 function trimName (str) {
   str = str.replace("www.","").replace(".org","");
   return str.split('.')[0];
 };
-
-function styleNode (n) {
-
-  return n;
-};
+// colors are assigned using a d3 scale
 var color = d3.scaleSequential(d3.interpolateRainbow)
-          .domain([2000, 4000]);
+          .domain([2000, 4000]);  // arbitrary limits that result in a good range of colors
 color.clamp(true)
+
+// scale for the size of the circles
 var r = d3.scaleLinear()
           .domain([1, 100])
           .range([5, 50]);
-// var y = d3.scaleLinear()
-//           .domain([1, data_map.size()])
-//           .range([10, 600]);
-// var x = d3.scaleLinear()
-//           .domain([1, data_map.size()])
-//           .range([10, 900]);
+
 function x (name) {
   if (code_map.has(name)) {
-    console.log(name)
     return code_map.get(name).x;
   }
-  return 10;
+  return -999;
 };
 function y (name) {
   if (code_map.has(name)) {
     return code_map.get(name).y;
   }
-  return 10;
+  return "50%";
 };
 
-
-
 function displayData (data) {
-  // console.log(data);
   var code = trimName(data.server_name);
+  // the queue is to have a sliding window of the stream data
   if (data_queue.length > DATA_MAX) {
     var trash = trimName(data_queue.shift().server_name);
     var val = data_map.get(trash) - 1;
@@ -158,36 +178,30 @@ function displayData (data) {
     }
   }
   data_queue.push(data);
+  // data_map contains recent edit counts for each wiki
   if (data_map.has(code)) {
     data_map.set(code, data_map.get(code) + 1);
   } else {
     data_map.set(code, 1);
   }
-  // console.log(data_map.entries())
-  // console.log(data_map.size())
+
+  // style existing circles
   var nodes = csvg.selectAll("circle")
     .data(data_map.entries())
       .attr("r", d => r(d.value))
-
-      // .text(d =>  d.key)
-      //   .style("font-size", d => + 0.1 * d.value * "em")
-      // .style("fill", d => color(hashString(d.key)))
-      // .text(function(d) {return d.key;});
+  // create new circles for new data entries
   nodes.enter().append("circle")
       // .merge(nodes)    causes major performance issues
       .attr("r", d => r(d.value))
       .attr("cx", d => x(d.key))
       .attr("cy", d => y(d.key))
       .style("fill", d => color(hashString(d.key)));
-      // .text(d =>  d.key);
-
+  // delete circles for data outside the window
   nodes.exit().remove();
 };
 
 
-
-
-
+// connect to wikipedia's recent edits stream
 source.onopen = function (e) {
   console.log("connected");
 };
