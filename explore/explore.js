@@ -100,7 +100,7 @@ var data_map = d3.map();
 var csvg = d3.select("body")
               .append("svg")
               .attr("height", 600)
-              .attr("width", "100%");
+              .attr("width", 1235);
 var wmap = csvg.append("g");
 var path = d3.geoPath().projection(d3.geoMercator());
 
