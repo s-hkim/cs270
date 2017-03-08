@@ -1,7 +1,4 @@
-@gray : #999;
-@lightgray : #ddd;
-@black : #222;
-@white : #fff;
+@import "colors.less";
 
 body {
   font-family: "Sawarabi Mincho", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
@@ -18,6 +15,15 @@ a:link, a:hover, a:visited {
 }
 .hidden {
   display: none;
+}
+.dark {
+  background: @lightgray;
+}
+.section {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  border: 2px solid @gray;
 }
 .nav {
   width: 80%;

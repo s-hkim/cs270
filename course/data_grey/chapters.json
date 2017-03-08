@@ -1,5 +1,1858 @@
 [
-  {
-
-  }
+   {
+      "chapter":10,
+      "name":"１０課",
+      "vocab":[
+         {
+            "definition":"to visit; call",
+            "kanji":"\u8a2a\u308c\u308b",
+            "hiragana":"\u304a\u3068\u305a\u308c\u308b"
+         },
+         {
+            "definition":"scenery",
+            "kanji":"\u98a8\u666f",
+            "hiragana":"\u3075\u3046\u3051\u3044"
+         },
+         {
+            "definition":"to go through; walk along",
+            "kanji":"\u901a\u308b",
+            "hiragana":"\u3068\u304a\u308b"
+         },
+         {
+            "definition":"rank",
+            "kanji":"\u301c\u4f4d",
+            "hiragana":"\u301c\u3044"
+         },
+         {
+            "definition":"warm",
+            "kanji":"\u6e29\u304b\u3044",
+            "hiragana":"\u3042\u305f\u305f\u304b\u3044"
+         },
+         {
+            "definition":"cold",
+            "kanji":"\u51b7\u305f\u3044",
+            "hiragana":"\u3064\u3081\u305f\u3044"
+         },
+         {
+            "definition":"to change",
+            "kanji":"\u5909\u5316\u3059\u308b",
+            "hiragana":"\u3078\u3093\u304b\u3059\u308b"
+         },
+         {
+            "definition":"to put together",
+            "kanji":"\u301c\u306b\u5408\u308f\u305b\u3066",
+            "hiragana":"\u301c\u306b\u3042\u308f\u305b\u3066"
+         },
+         {
+            "definition":"district; area",
+            "kanji":"\u5730\u533a",
+            "hiragana":"\u3061\u304f"
+         },
+         {
+            "definition":"food",
+            "kanji":"\u98df\u54c1",
+            "hiragana":"\u3057\u3087\u304f\u3072\u3093"
+         },
+         {
+            "definition":"to heat",
+            "kanji":"\u6e29\u3081\u308b",
+            "hiragana":"\u3042\u305f\u305f\u3081\u308b"
+         },
+         {
+            "definition":"safety",
+            "kanji":"\u5b89\u5168",
+            "hiragana":"\u3042\u3093\u305c\u3093"
+         },
+         {
+            "definition":"dangerous",
+            "kanji":"\u5371\u967a",
+            "hiragana":"\u304d\u3051\u3093"
+         },
+         {
+            "definition":"to trust; rely on",
+            "kanji":"\u4fe1\u983c\u3059\u308b",
+            "hiragana":"\u3057\u3093\u3089\u3044\u3059\u308b"
+         },
+         {
+            "definition":"automatic",
+            "kanji":"\u81ea\u52d5",
+            "hiragana":"\u3058\u3069\u3046"
+         },
+         {
+            "definition":"to like; prefer",
+            "kanji":"\u597d\u3080",
+            "hiragana":"\u3053\u306e\u3080"
+         },
+         {
+            "definition":"fact; truth",
+            "kanji":"\u4e8b\u5b9f",
+            "hiragana":"\u3058\u3058\u3064"
+         },
+         {
+            "definition":"to be useful",
+            "kanji":"\u5f79\u306b\u7acb\u3064",
+            "hiragana":"\u3084\u304f\u306b\u305f\u3064"
+         },
+         {
+            "definition":"street",
+            "kanji":"\u901a\u308a",
+            "hiragana":"\u3068\u304a\u308a"
+         },
+         {
+            "definition":"to make (good) use; to put something to (good) use",
+            "kanji":"\u5229\u7528\u3059\u308b",
+            "hiragana":"\u308a\u3088\u3046\u3059\u308b"
+         },
+         {
+            "definition":"energy saving",
+            "kanji":"\u7701\u30a8\u30cd",
+            "hiragana":"\u3057\u3087\u3046\u30a8\u30cd"
+         },
+         {
+            "definition":"to cool refrigerate; chill",
+            "kanji":"\u51b7\u3084\u3059",
+            "hiragana":"\u3072\u3084\u3059"
+         },
+         {
+            "definition":"electric power",
+            "kanji":"\u96fb\u529b",
+            "hiragana":"\u3067\u3093\u308a\u3087\u304f"
+         },
+         {
+            "definition":"midnight",
+            "kanji":"\u6df1\u591c",
+            "hiragana":"\u3057\u3093\u3084"
+         },
+         {
+            "definition":"future",
+            "kanji":"\u5c06\u6765",
+            "hiragana":"\u3057\u3087\u3046\u3089\u3044"
+         },
+         {
+            "definition":"information",
+            "kanji":"\u60c5\u5831",
+            "hiragana":"\u3058\u3087\u3046\u307b\u3046"
+         },
+         {
+            "definition":"Western food",
+            "kanji":"\u6d0b\u98df",
+            "hiragana":"\u3088\u3046\u3057\u3087\u304f"
+         },
+         {
+            "definition":"Japanese food",
+            "kanji":"\u548c\u98df",
+            "hiragana":"\u308f\u3057\u3087\u304f"
+         },
+         {
+            "definition":"to feel relieved",
+            "kanji":"\u5b89\u5fc3\u3059\u308b",
+            "hiragana":"\u3042\u3093\u3057\u3093\u3059\u308b"
+         },
+         {
+            "definition":"single\uff1b unmarried",
+            "kanji":"\u72ec\u8eab",
+            "hiragana":"\u3069\u304f\u3057\u3093"
+         },
+         {
+            "definition":"neighborhood",
+            "kanji":"\u8fd1\u6240",
+            "hiragana":"\u304d\u3093\u3058\u3087"
+         },
+         {
+            "definition":"far",
+            "kanji":"\u9060\u3044",
+            "hiragana":"\u3068\u304a\u3044"
+         },
+         {
+            "definition":"evening",
+            "kanji":"\u5915\u65b9",
+            "hiragana":"\u3086\u3046\u304c\u305f"
+         },
+         {
+            "definition":"to place; line up",
+            "kanji":"\u4e26\u3079\u308b",
+            "hiragana":"\u306a\u3089\u3079\u308b"
+         },
+         {
+            "definition":"sales",
+            "kanji":"\u8ca9\u58f2",
+            "hiragana":"\u306f\u3093\u3070\u3044"
+         },
+         {
+            "definition":"town; city",
+            "kanji":"\u8857",
+            "hiragana":"\u307e\u3061"
+         },
+         {
+            "definition":"to become wide spread; become popular",
+            "kanji":"\u666e\u53ca\u3059\u308b",
+            "hiragana":"\u3075\u304d\u3085\u3046\u3059\u308b"
+         },
+         {
+            "definition":"sales",
+            "kanji":"\u58f2\u308a\u4e0a\u3052",
+            "hiragana":"\u3046\u308a\u3042\u3052"
+         },
+         {
+            "definition":"to freeze",
+            "kanji":"\u51b7\u51cd\u3059\u308b",
+            "hiragana":"\u308c\u3044\u3068\u3046\u3059\u308b"
+         },
+         {
+            "definition":"microwave oven",
+            "kanji":"\u96fb\u5b50\u30ec\u30f3\u30b8",
+            "hiragana":"\u3067\u3093\u3057\u30ec\u30f3\u30b8"
+         },
+         {
+            "definition":"crime",
+            "kanji":"\u72af\u7f6a",
+            "hiragana":"\u306f\u3093\u3056\u3044"
+         },
+         {
+            "definition":"to steal",
+            "kanji":"\u76d7\u3080",
+            "hiragana":"\u306c\u3059\u3080"
+         },
+         {
+            "definition":"to break; to destroy",
+            "kanji":"\u58ca\u3059",
+            "hiragana":"\u3053\u308f\u3059"
+         },
+         {
+            "definition":"to be broken",
+            "kanji":"\u58ca\u308c\u308b",
+            "hiragana":"\u3053\u308f\u308c\u308b"
+         },
+         {
+            "definition":"cash",
+            "kanji":"\u73fe\u91d1",
+            "hiragana":"\u3052\u3093\u304d\u3093"
+         },
+         {
+            "definition":"author",
+            "kanji":"\u8457\u8005",
+            "hiragana":"\u3061\u3087\u3057\u3083"
+         },
+         {
+            "definition":"Mr/Ms",
+            "kanji":"\u301c\u6c0f",
+            "hiragana":"\u301c\u3057"
+         },
+         {
+            "definition":"~made; ~make; made in~",
+            "kanji":"\u301c\u88fd",
+            "hiragana":"\u301c\u305b\u3044"
+         },
+         {
+            "definition":"machine",
+            "kanji":"\u6a5f\u68b0",
+            "hiragana":"\u304d\u304b\u3044"
+         },
+         {
+            "definition":"to publicize; advertise",
+            "kanji":"\u5ba3\u4f1d\u3059\u308b",
+            "hiragana":"\u305b\u3093\u3067\u3093\u3059\u308b"
+         },
+         {
+            "definition":"good characteristics",
+            "kanji":"\u7279\u5fb4",
+            "hiragana":"\u3068\u304f\u3061\u3087\u3046"
+         },
+         {
+            "definition":"to criticize",
+            "kanji":"\u6279\u5224\u3059\u308b",
+            "hiragana":"\u3072\u306f\u3093\u3059\u308b"
+         },
+         {
+            "definition":"countermeasure",
+            "kanji":"\u5bfe\u7b56",
+            "hiragana":"\u305f\u3044\u3055\u304f"
+         },
+         {
+            "definition":"can",
+            "kanji":"\u7f36",
+            "hiragana":"\u304b\u3093"
+         },
+         {
+            "definition":"to introduce; import",
+            "kanji":"\u5c0e\u5165\u3059\u308b",
+            "hiragana":"\u3069\u3046\u306b\u3085\u3046\u3059\u308b"
+         },
+         {
+            "definition":"to regulate",
+            "kanji":"\u898f\u5236\u3059\u308b",
+            "hiragana":"\u304d\u305b\u3044\u3059\u308b"
+         },
+         {
+            "definition":"friend; supporter",
+            "kanji":"\u5473\u65b9",
+            "hiragana":"\u307f\u304b\u305f"
+         },
+         {
+            "definition":"foodstuff; groceries",
+            "kanji":"\u98df\u6599\u54c1",
+            "hiragana":"\u3057\u3087\u304f\u308a\u3087\u3046\u3072\u3093"
+         },
+         {
+            "definition":"daily commodities",
+            "kanji":"\u751f\u6d3b\u7528\u54c1",
+            "hiragana":"\u305b\u3044\u304b\u3064\u3088\u3046\u3072\u3093"
+         },
+         {
+            "definition":"mentality; psychology",
+            "kanji":"\u5fc3\u7406",
+            "hiragana":"\u3057\u3093\u308a"
+         },
+         {
+            "definition":"consumer",
+            "kanji":"\u6d88\u8cbb\u8005",
+            "hiragana":"\u3057\u3087\u3046\u3072\u3057\u3083"
+         },
+         {
+            "definition":"to exchange; replace",
+            "kanji":"\u66ff\u3048\u308b",
+            "hiragana":"\u304b\u3048\u308b"
+         }
+      ]
+   },
+   {
+      "chapter":11,
+      "name":"１１課",
+      "vocab":[
+         {
+            "kanji":"\u6b74\u53f2",
+            "hiragana":"\u308c\u304d\u3057",
+            "definition":"history"
+         },
+         {
+            "kanji":"\u301c\u3092\u901a\u3057\u3066",
+            "hiragana":"\u301c\u3092\u3068\u304a\u3057\u3066",
+            "definition":"to let pass; let into"
+         },
+         {
+            "kanji":"\u7c73",
+            "hiragana":"\u3053\u3081",
+            "definition":"rice"
+         },
+         {
+            "kanji":"\u5404\u301c",
+            "hiragana":"\u304b\u304f\u301c",
+            "definition":"each"
+         },
+         {
+            "kanji":"\u5e83\u304c\u308b",
+            "hiragana":"\u3072\u308d\u304c\u308b",
+            "definition":"to spread out; stretch; get around"
+         },
+         {
+            "kanji":"\u7a0e\u91d1",
+            "hiragana":"\u305c\u3044\u304d\u3093",
+            "definition":"tax"
+         },
+         {
+            "kanji":"\u652f\u6255\u3046",
+            "hiragana":"\u3057\u306f\u3089\u3046",
+            "definition":"to pay"
+         },
+         {
+            "kanji":"\u5b63\u7bc0",
+            "hiragana":"\u304d\u305b\u3064",
+            "definition":"seasons"
+         },
+         {
+            "kanji":"\u6c17\u306b\u3059\u308b",
+            "hiragana":"\u304d\u306b\u3059\u308b",
+            "definition":"to worry; be concerned; care about"
+         },
+         {
+            "kanji":"\u975e\u5e38\u306a",
+            "hiragana":"\u3072\u3058\u3087\u3046\u306a",
+            "definition":"extreme; great"
+         },
+         {
+            "kanji":"\u4ea4\u6d41\u3059\u308b",
+            "hiragana":"\u3053\u3046\u308a\u3085\u3046\u3059\u308b",
+            "definition":"to have contact; exchange"
+         },
+         {
+            "kanji":"\u301c\u98a8",
+            "hiragana":"\u301c\u3075\u3046",
+            "definition":"method; style; appearance"
+         },
+         {
+            "kanji":"\u7528\u3044\u308b",
+            "hiragana":"\u3082\u3061\u3044\u308b",
+            "definition":"to use; employ"
+         },
+         {
+            "kanji":"\u301c\u3068\u5171\u306b",
+            "hiragana":"\u301c\u3068\u3068\u3082\u306b",
+            "definition":"both"
+         },
+         {
+            "kanji":"\u6226\u3046",
+            "hiragana":"\u305f\u305f\u304b\u3046",
+            "definition":"to fight; wrestle"
+         },
+         {
+            "kanji":"\u5f8c\u534a",
+            "hiragana":"\u3053\u3046\u306f\u3093",
+            "definition":"the second half"
+         },
+         {
+            "kanji":"\u5f53\u6642",
+            "hiragana":"\u3068\u3046\u3058",
+            "definition":"at that time; in those days"
+         },
+         {
+            "kanji":"\u897f\u6d0b",
+            "hiragana":"\u305b\u3044\u3088\u3046",
+            "definition":"the west; Western countries"
+         },
+         {
+            "kanji":"\u76ee\u6307\u3059",
+            "hiragana":"\u3081\u3056\u3059",
+            "definition":"to aim\uff1baspire"
+         },
+         {
+            "kanji":"\u301c\u540c\u58eb",
+            "hiragana":"\u301c\u3069\u3046\u3057",
+            "definition":"fellow; mutual"
+         },
+         {
+            "kanji":"\u8fd1\u4ee3\u5316\u3059\u308b",
+            "hiragana":"\u304d\u3093\u3060\u3044\u304b\u3059\u308b",
+            "definition":"to modernize"
+         },
+         {
+            "kanji":"\u653f\u5e9c",
+            "hiragana":"\u305b\u3044\u3075",
+            "definition":"government"
+         },
+         {
+            "kanji":"\u52a0\u3048\u308b",
+            "hiragana":"\u304f\u308f\u3048\u308b",
+            "definition":"to add"
+         },
+         {
+            "kanji":"\u904e\u53bb",
+            "hiragana":"\u304b\u3053",
+            "definition":"the past; the previous"
+         },
+         {
+            "kanji":"\u8fd1\u4ee3\u7684",
+            "hiragana":"\u304d\u3093\u3060\u3044\u3066\u304d",
+            "definition":"modern"
+         },
+         {
+            "kanji":"\u4e0d\u826f",
+            "hiragana":"\u3075\u308a\u3087\u3046",
+            "definition":"badness; inferiority"
+         },
+         {
+            "kanji":"\u301c\u4e0a\u3067",
+            "hiragana":"\u301c\u3058\u3087\u3046\u3067",
+            "definition":"on top of; from the standpoint of"
+         },
+         {
+            "kanji":"\u301c\u3068\u4e26\u3093\u3067",
+            "hiragana":"\u301c\u3068\u306a\u3089\u3093\u3067",
+            "definition":"to rival; to match; to equal"
+         },
+         {
+            "kanji":"\u6cca\u307e\u308b",
+            "hiragana":"\u3068\u307e\u308b",
+            "definition":"to stay at"
+         },
+         {
+            "kanji":"\u8f38\u5165\u3059\u308b",
+            "hiragana":"\u3086\u306b\u3085\u3046\u3059\u308b",
+            "definition":"to import"
+         },
+         {
+            "kanji":"\u72ec\u81ea\u306e",
+            "hiragana":"\u3069\u304f\u3058\u306e",
+            "definition":"original; of one's own"
+         },
+         {
+            "kanji":"\u534a\u5cf6",
+            "hiragana":"\u306f\u3093\u3068\u3046",
+            "definition":"peninsula"
+         },
+         {
+            "kanji":"\u5929\u5019",
+            "hiragana":"\u3066\u3093\u3053\u3046",
+            "definition":"weather"
+         },
+         {
+            "kanji":"\u52b9\u7387",
+            "hiragana":"\u3053\u3046\u308a\u3064",
+            "definition":"efficiency; performance"
+         },
+         {
+            "kanji":"\u751f\u7523\u3059\u308b",
+            "hiragana":"\u305b\u3044\u3055\u3093\u3059\u308b",
+            "definition":"production, manufacture"
+         },
+         {
+            "kanji":"\u6cd5\u5f8b",
+            "hiragana":"\u307b\u3046\u308a\u3064",
+            "definition":"law"
+         },
+         {
+            "kanji":"\u5efa\u7bc9",
+            "hiragana":"\u3051\u3093\u3061\u304f",
+            "definition":"construction; architecture"
+         },
+         {
+            "kanji":"\u670d\u88c5",
+            "hiragana":"\u3075\u304f\u305d\u3046",
+            "definition":"garments"
+         },
+         {
+            "kanji":"\u604b\u611b",
+            "hiragana":"\u308c\u3093\u3042\u3044",
+            "definition":"love; romance"
+         },
+         {
+            "kanji":"\u767a\u5c55\u3059\u308b",
+            "hiragana":"\u306f\u3063\u3066\u3093\u3059\u308b",
+            "definition":"to develop; to grow"
+         },
+         {
+            "kanji":"\u78ba\u7acb\u3059\u308b",
+            "hiragana":"\u304b\u304f\u308a\u3064\u3059\u308b",
+            "definition":"to establish; to settle"
+         },
+         {
+            "kanji":"\u301c\u306b\u81f3\u308b\u307e\u3067",
+            "hiragana":"\u301c\u306b\u3044\u305f\u308b\u307e\u3067",
+            "definition":"to arrive at; to reach; to get to"
+         },
+         {
+            "kanji":"\u8cbf\u6613\u3059\u308b",
+            "hiragana":"\u307c\u3046\u3048\u304d\u3059\u308b",
+            "definition":"to trade"
+         },
+         {
+            "kanji":"\u7d71\u4e00\u3059\u308b",
+            "hiragana":"\u3068\u3046\u3044\u3064\u3059\u308b",
+            "definition":"to unite; to consolidate"
+         },
+         {
+            "kanji":"\u8208\u5473",
+            "hiragana":"\u304d\u3087\u3046\u307f",
+            "definition":"interest (in something)"
+         },
+         {
+            "kanji":"\u7a4d\u6975\u7684",
+            "hiragana":"\u305b\u3063\u304d\u3087\u304f\u3066\u304d",
+            "definition":"positive; active; proactive"
+         },
+         {
+            "kanji":"\u6c5f\u6238",
+            "hiragana":"\u3048\u3069",
+            "definition":"Edo (old name of Tokyo)"
+         },
+         {
+            "kanji":"\u90f5\u4fbf",
+            "hiragana":"\u3086\u3046\u3073\u3093",
+            "definition":"mail; postal service"
+         },
+         {
+            "kanji":"\u7981\u6b62\u3059\u308b",
+            "hiragana":"\u304d\u3093\u3057\u3059\u308b",
+            "definition":"to forbid; prohibit; ban"
+         },
+         {
+            "kanji":"\u72ec\u7279",
+            "hiragana":"\u3069\u304f\u3068\u304f",
+            "definition":"distinct; one-of-a-kind"
+         },
+         {
+            "kanji":"\u8f38\u51fa\u3059\u308b",
+            "hiragana":"\u3086\u3057\u3085\u3064\u3059\u308b",
+            "definition":"to export"
+         },
+         {
+            "kanji":"\u51fa\u6765\u4e8b",
+            "hiragana":"\u3067\u304d\u3054\u3068",
+            "definition":"incident; event; happening"
+         },
+         {
+            "kanji":"\u8a18\u9332\u3059\u308b",
+            "hiragana":"\u304d\u308d\u304f\u3059\u308b",
+            "definition":"to record; to document"
+         },
+         {
+            "kanji":"\u5e73\u6210",
+            "hiragana":"\u3078\u3044\u305b\u3044",
+            "definition":"Heisei era"
+         },
+         {
+            "kanji":"\u4f3c\u308b",
+            "hiragana":"\u306b\u308b",
+            "definition":"to resemble; to be similar"
+         },
+         {
+            "kanji":"\u71c3\u3048\u308b",
+            "hiragana":"\u3082\u3048\u308b",
+            "definition":"to burn; to get fired up"
+         },
+         {
+            "kanji":"\u6f14\u3058\u308b",
+            "hiragana":"\u3048\u3093\u3058\u308b",
+            "definition":"to perform (a play); play ( a part)"
+         }
+      ]
+   },
+   {
+      "chapter":12,
+      "name":"１２課",
+      "vocab":[
+         {
+            "hiragana":"\u308f\u3057",
+            "kanji":"\u548c\u7d19",
+            "definition":"Japanese paper"
+         },
+         {
+            "hiragana":"\u3057\u3087\u304f\u3076\u3064",
+            "kanji":"\u690d\u7269",
+            "definition":"plant"
+         },
+         {
+            "hiragana":"\u3060\u3044\u3044\u3061",
+            "kanji":"\u7b2c\u4e00",
+            "definition":"first; foremost; number one"
+         },
+         {
+            "hiragana":"\u3068\u304f\u3061\u3087\u3046",
+            "kanji":"\u7279\u5fb4",
+            "definition":"good characteristics"
+         },
+         {
+            "hiragana":"\u301c\u306b\u304b\u3093\u3059\u308b",
+            "kanji":"\u301c\u306b\u95a2\u3059\u308b",
+            "definition":"to concern; to be related"
+         },
+         {
+            "hiragana":"\u304b\u3058",
+            "kanji":"\u706b\u4e8b",
+            "definition":"fire; conflagration"
+         },
+         {
+            "hiragana":"\u3044\u304b\u3059",
+            "kanji":"\u751f\u304b\u3059",
+            "definition":"to make (the best) use of; to let live"
+         },
+         {
+            "hiragana":"\u304b\u308b\u3044",
+            "kanji":"\u8efd\u3044",
+            "definition":"light (not heavy); feeling light"
+         },
+         {
+            "hiragana":"\u3068\u304a\u3059",
+            "kanji":"\u901a\u3059",
+            "definition":"to let pass; let into"
+         },
+         {
+            "hiragana":"\u3072\u304b\u308a",
+            "kanji":"\u5149",
+            "definition":"light"
+         },
+         {
+            "hiragana":"\u3068\u3058\u308b",
+            "kanji":"\u9589\u3058\u308b",
+            "definition":"to close; shut"
+         },
+         {
+            "hiragana":"\u304e\u3058\u3085\u3064",
+            "kanji":"\u6280\u8853",
+            "definition":"art; craft; technique; technology"
+         },
+         {
+            "hiragana":"\u306a\u304b\u3088\u304f\u3059\u308b",
+            "kanji":"\u4ef2\u826f\u304f\u3059\u308b",
+            "definition":"to become friendly; get along well"
+         },
+         {
+            "hiragana":"\u304a\u308b",
+            "kanji":"\u6298\u308b",
+            "definition":"to break; to fold; to pick flowers"
+         },
+         {
+            "hiragana":"\u3055\u3093\u304b\u304f",
+            "kanji":"\u4e09\u89d2",
+            "definition":"triangle; triangular"
+         },
+         {
+            "hiragana":"\u3055\u304d",
+            "kanji":"\u5148",
+            "definition":"end; point; tip"
+         },
+         {
+            "hiragana":"\u3042\u308f\u305b\u308b",
+            "kanji":"\u5408\u308f\u305b\u308b",
+            "definition":"to put together; fit in"
+         },
+         {
+            "hiragana":"\u3072\u3063\u304f\u308a\u304b\u3048\u3059",
+            "kanji":"\u3072\u3063\u304f\u308a\u8fd4\u3059",
+            "definition":"to turn over; knock over; overturn"
+         },
+         {
+            "hiragana":"\u305b\u3093",
+            "kanji":"\u7dda",
+            "definition":"line"
+         },
+         {
+            "hiragana":"\u301c\u304c\u308f",
+            "kanji":"\u301c\u5074",
+            "definition":"side (of something, or taking someone's side); part"
+         },
+         {
+            "hiragana":"\u308f\u304b\u308c\u308b",
+            "kanji":"\u5206\u304b\u308c\u308b",
+            "definition":"to branch off; divide into"
+         },
+         {
+            "hiragana":"\u3042\u305f\u307e",
+            "kanji":"\u982d",
+            "definition":"head"
+         },
+         {
+            "hiragana":"\u306a\u304a\u308b",
+            "kanji":"\u6cbb\u308b",
+            "definition":"to get well; be cured"
+         },
+         {
+            "hiragana":"\u306b\u3085\u3046\u3044\u3093\u3059\u308b",
+            "kanji":"\u5165\u9662\u3059\u308b",
+            "definition":"to be hospitalized"
+         },
+         {
+            "hiragana":"\u301c\u307e\u3044",
+            "kanji":"\u301c\u679a",
+            "definition":"counter for flat objects"
+         },
+         {
+            "hiragana":"\u301c\u3053",
+            "kanji":"\u301c\u500b",
+            "definition":"counter for articles;counter for military units"
+         },
+         {
+            "hiragana":"\u304b\u3069",
+            "kanji":"\u89d2",
+            "definition":"corner,edge"
+         },
+         {
+            "hiragana":"\u3066\u3065\u304f\u308a",
+            "kanji":"\u624b\u4f5c\u308a",
+            "definition":"handmade; homegrown; hand-crafted; homemade"
+         },
+         {
+            "hiragana":"\u3052\u3093\u308a\u3087\u3046",
+            "kanji":"\u539f\u6599",
+            "definition":"raw materials"
+         },
+         {
+            "hiragana":"\u3046\u3059\u3044",
+            "kanji":"\u8584\u3044",
+            "definition":"thin; pale; light"
+         },
+         {
+            "hiragana":"\u304b\u304f\u3059",
+            "kanji":"\u96a0\u3059",
+            "definition":"to hide; to conceal"
+         },
+         {
+            "hiragana":"\u304b\u308f\u304b\u3059",
+            "kanji":"\u4e7e\u304b\u3059",
+            "definition":"to dry (clothes, etc.); to desiccate"
+         },
+         {
+            "hiragana":"\u304b\u308f\u304f",
+            "kanji":"\u4e7e\u304f",
+            "definition":"to get dry"
+         },
+         {
+            "hiragana":"\u3084\u3076\u308c\u308b",
+            "kanji":"\u7834\u308c\u308b",
+            "definition":"to get torn; to wear out"
+         },
+         {
+            "hiragana":"\u3084\u308f\u3089\u304b\u3044",
+            "kanji":"\u67d4\u3089\u304b\u3044",
+            "definition":"soft; tender; limp"
+         },
+         {
+            "hiragana":"\u304b\u3050",
+            "kanji":"\u5bb6\u5177",
+            "definition":"furniture"
+         },
+         {
+            "hiragana":"\u3058\u3087\u3046\u3076",
+            "kanji":"\u4e08\u592b",
+            "definition":"strong; durable"
+         },
+         {
+            "hiragana":"\u3084\u3055\u3057\u3044",
+            "kanji":"\u512a\u3057\u3044",
+            "definition":"tender;kind;gentle"
+         },
+         {
+            "hiragana":"\u304b\u3044\u306f\u3064\u3059\u308b",
+            "kanji":"\u958b\u767a\u3059\u308b",
+            "definition":"to develop; exploit"
+         },
+         {
+            "hiragana":"\u304b\u3044\u308a\u3087\u3046\u3059\u308b",
+            "kanji":"\u6539\u826f\u3059\u308b",
+            "definition":"to make an improvement; upgrade"
+         },
+         {
+            "hiragana":"\u3075\u304b\u3051\u3064",
+            "kanji":"\u4e0d\u53ef\u6b20",
+            "definition":"indispensable; essential"
+         },
+         {
+            "hiragana":"\u305b\u3044\u3072\u3093",
+            "kanji":"\u88fd\u54c1",
+            "definition":"manufactured goods"
+         },
+         {
+            "hiragana":"\u307e\u3056\u308b",
+            "kanji":"\u6df7\u3056\u308b",
+            "definition":"to mix; blend"
+         },
+         {
+            "hiragana":"\u305d\u3046",
+            "kanji":"\u6cbf\u3046",
+            "definition":"to run along; to run beside;"
+         },
+         {
+            "hiragana":"\u306f\u306d",
+            "kanji":"\u7fbd",
+            "definition":"feather; wing;"
+         },
+         {
+            "hiragana":"\u307e\u3093\u306a\u304b",
+            "kanji":"\u771f\u3093\u4e2d",
+            "definition":"center; middle"
+         },
+         {
+            "hiragana":"\u307e\u3052\u308b",
+            "kanji":"\u66f2\u3052\u308b",
+            "definition":"to fold down; bend"
+         },
+         {
+            "hiragana":"\u3044\u304d",
+            "kanji":"\u606f",
+            "definition":"breath"
+         },
+         {
+            "hiragana":"\u3075\u304f",
+            "kanji":"\u5439\u304f",
+            "definition":"to blow (wind, etc.); to play a wind instrument;"
+         },
+         {
+            "hiragana":"\u301c\u3053\u3080",
+            "kanji":"\u301c\u8fbc\u3080",
+            "definition":"to be crowded; to be packed;to be complex;"
+         },
+         {
+            "hiragana":"\u3067\u304d\u3042\u304c\u308a",
+            "kanji":"\u51fa\u6765\u4e0a\u304c\u308a",
+            "definition":"finish; completion; ready; made for; cut out"
+         },
+         {
+            "hiragana":"\u301c\u308f",
+            "kanji":"\u301c\u7fbd",
+            "definition":"counter for birds and rabbits"
+         },
+         {
+            "hiragana":"\u3069\u3046\u304d\u3085\u3046\u305b\u3044",
+            "kanji":"\u540c\u7d1a\u751f",
+            "definition":"classmate; classmates"
+         },
+         {
+            "hiragana":"\u3052\u3093\u3070\u304f",
+            "kanji":"\u539f\u7206",
+            "definition":"atomic bomb; A-bomb"
+         },
+         {
+            "hiragana":"\u3073\u3087\u3046\u3057\u3064",
+            "kanji":"\u75c5\u5ba4",
+            "definition":"sickroom; hospital room"
+         },
+         {
+            "hiragana":"\u306f",
+            "kanji":"\u8449",
+            "definition":"leaf"
+         },
+         {
+            "hiragana":"\u304b\u3056\u308b",
+            "kanji":"\u98fe\u308b",
+            "definition":"to display; decorate"
+         },
+         {
+            "hiragana":"\u3058\u3087\u3046\u305f\u3044",
+            "kanji":"\u72b6\u614b",
+            "definition":"current status; condition; situation"
+         },
+         {
+            "hiragana":"\u306b\u3063\u3059\u3046",
+            "kanji":"\u65e5\u6570",
+            "definition":"a number of days"
+         }
+      ]
+   },
+   {
+      "chapter":13,
+      "name":"１３課",
+      "vocab":[
+         {
+            "hiragana":"\u305f\u308a\u308b",
+            "definition":"to be sufficient; to be enough",
+            "kanji":"\u8db3\u308a\u308b"
+         },
+         {
+            "hiragana":"\u3044\u3093\u3057\u3087\u3046",
+            "definition":"impression",
+            "kanji":"\u5370\u8c61"
+         },
+         {
+            "hiragana":"\u3051\u3057\u304d",
+            "definition":"sign; indication",
+            "kanji":"\u666f\u8272"
+         },
+         {
+            "hiragana":"\u3057\u305c\u3093",
+            "definition":"nature; spontaneity",
+            "kanji":"\u81ea\u7136"
+         },
+         {
+            "hiragana":"\u3053\u307e\u304b\u3044",
+            "definition":"small; fine; sensitive;",
+            "kanji":"\u7d30\u304b\u3044"
+         },
+         {
+            "hiragana":"\u304a\u3082\u3044\u3060\u3059",
+            "definition":"to recall; to remember",
+            "kanji":"\u601d\u3044\u51fa\u3059"
+         },
+         {
+            "hiragana":"\u3086\u3081",
+            "definition":"dream",
+            "kanji":"\u5922"
+         },
+         {
+            "hiragana":"\u308a\u3087\u3046\u3066",
+            "definition":"both hands",
+            "kanji":"\u4e21\u624b"
+         },
+         {
+            "hiragana":"\u3064\u3046\u3058\u308b",
+            "definition":"to run to; to lead to; to communicate",
+            "kanji":"\u901a\u3058\u308b"
+         },
+         {
+            "hiragana":"\u3055\u3044\u3060\u3044",
+            "definition":"greatest; largest; maximum",
+            "kanji":"\u6700\u5927"
+         },
+         {
+            "hiragana":"\u304d\u306b\u306a\u308b",
+            "definition":"to be on one's mind; to worry one",
+            "kanji":"\u6c17\u306b\u306a\u308b"
+         },
+         {
+            "hiragana":"\u3057\u304d",
+            "definition":"four seasons",
+            "kanji":"\u56db\u5b63"
+         },
+         {
+            "hiragana":"\u3053\u304a\u308a",
+            "definition":"ice",
+            "kanji":"\u6c37"
+         },
+         {
+            "hiragana":"\u3057",
+            "definition":"poem",
+            "kanji":"\u8a69"
+         },
+         {
+            "hiragana":"\u304b\u3093\u3069\u3046\u3059\u308b",
+            "definition":"to be deeply moved emotionally; be impressed",
+            "kanji":"\u611f\u52d5\u3059\u308b"
+         },
+         {
+            "hiragana":"\u306f\u3063\u3051\u3093\u3059\u308b",
+            "definition":"to discover; find out",
+            "kanji":"\u767a\u898b\u3059\u308b"
+         },
+         {
+            "hiragana":"\u305d\u3046\u305e\u3046\u3059\u308b",
+            "definition":"to imagine: guess",
+            "kanji":"\u60f3\u50cf\u3059\u308b"
+         },
+         {
+            "hiragana":"\u304b\u306a\u3089\u305a",
+            "definition":"without fail; certainly",
+            "kanji":"\u5fc5\u305a"
+         },
+         {
+            "hiragana":"\u3061\u3087\u304f\u305b\u3064",
+            "definition":"directly; firsthand",
+            "kanji":"\u76f4\u63a5"
+         },
+         {
+            "hiragana":"\u3057\u3081\u3059",
+            "definition":"to indicate; show",
+            "kanji":"\u793a\u3059"
+         },
+         {
+            "hiragana":"\u3044\u3051",
+            "definition":"pond",
+            "kanji":"\u6c60"
+         },
+         {
+            "hiragana":"\u3055\u304f\u3057\u3083",
+            "definition":"author; authoress",
+            "kanji":"\u4f5c\u8005"
+         },
+         {
+            "hiragana":"\u3055\u3093\u3053\u3046",
+            "definition":"reference; consultation",
+            "kanji":"\u53c2\u8003"
+         },
+         {
+            "hiragana":"\u3042\u3058\u308f\u3046",
+            "definition":"to taste; to savor; to relish",
+            "kanji":"\u5473\u308f\u3046"
+         },
+         {
+            "hiragana":"\u304b\u3093\u305d\u3046",
+            "definition":"impressions; thoughts",
+            "kanji":"\u611f\u60f3"
+         },
+         {
+            "hiragana":"\u3073\u3058\u3093",
+            "definition":"beautiful person (woman)",
+            "kanji":"\u7f8e\u4eba"
+         },
+         {
+            "hiragana":"\u3064\u307e",
+            "definition":"wife (humble form)",
+            "kanji":"\u59bb"
+         },
+         {
+            "hiragana":"\u304a\u3063\u3068",
+            "definition":"husband (humble form)",
+            "kanji":"\u592b"
+         },
+         {
+            "hiragana":"\u3053\u3046\u3064\u3046",
+            "definition":"communication; transportation; traffic",
+            "kanji":"\u4ea4\u901a"
+         },
+         {
+            "hiragana":"\u305f\u3093\u306b\u3093",
+            "definition":"in charge (of something); homeroom teacher",
+            "kanji":"\u62c5\u4efb"
+         },
+         {
+            "hiragana":"\u3059\u304c\u305f",
+            "definition":"figure; shape; appearance",
+            "kanji":"\u59ff"
+         },
+         {
+            "hiragana":"\u304b\u3093\u3055\u3064\u3059\u308b",
+            "definition":"to observe; survey",
+            "kanji":"\u89b3\u5bdf\u3059\u308b"
+         },
+         {
+            "hiragana":"\u304b\u3063\u3066\u306a",
+            "definition":"one's own convenience; one's way;",
+            "kanji":"\u52dd\u624b\u306a"
+         },
+         {
+            "hiragana":"\u3076\u3093\u3057\u3087\u3046",
+            "definition":"sentence; article; composition",
+            "kanji":"\u6587\u7ae0"
+         },
+         {
+            "hiragana":"\u304d\u307f",
+            "definition":"you; buddy; pal",
+            "kanji":"\u541b"
+         },
+         {
+            "hiragana":"\u306f\u308b",
+            "definition":"to stick; to paste; to stretch",
+            "kanji":"\u5f35\u308b"
+         },
+         {
+            "hiragana":"\u3068\u3076",
+            "definition":"to fly; to jump; to leap",
+            "kanji":"\u98db\u3076"
+         },
+         {
+            "hiragana":"\u306f\u3044\u304f",
+            "definition":"haiku poetry",
+            "kanji":"\u4ff3\u53e5"
+         },
+         {
+            "hiragana":"\u304f",
+            "definition":"haiku (sentence; passage; phrase)",
+            "kanji":"\u53e5"
+         },
+         {
+            "hiragana":"\u3072\u308b\u306d\u3059\u308b",
+            "definition":"to nap (afternoon); siesta",
+            "kanji":"\u663c\u5bdd\u3059\u308b"
+         },
+         {
+            "hiragana":"\u3046\u304b\u3076",
+            "definition":"to float; to be suspended; to rise to surface",
+            "kanji":"\u6d6e\u304b\u3076"
+         },
+         {
+            "hiragana":"\u304d\u305d\u304f",
+            "definition":"rules; regulations; conventions",
+            "kanji":"\u898f\u5247"
+         },
+         {
+            "hiragana":"\u304d\u3054",
+            "definition":"seasonal word (in haiku)",
+            "kanji":"\u5b63\u8a9e"
+         },
+         {
+            "hiragana":"\u3088\u3046\u305d",
+            "definition":"component; factor; item",
+            "kanji":"\u8981\u7d20"
+         },
+         {
+            "hiragana":"\u3076\u3093\u308b\u3044\u3059\u308b",
+            "definition":"classification; categorization; sorting",
+            "kanji":"\u5206\u985e\u3059\u308b"
+         },
+         {
+            "hiragana":"\u3052\u3093\u3057\u3087\u3046",
+            "definition":"phenomenon",
+            "kanji":"\u73fe\u8c61"
+         },
+         {
+            "hiragana":"\u3053\u3046\u305b\u3044\u3059\u308b",
+            "definition":"organization; configuration; composition",
+            "kanji":"\u69cb\u6210\u3059\u308b"
+         },
+         {
+            "hiragana":"\u304b\u3057",
+            "definition":"song lyrics; words of a song",
+            "kanji":"\u6b4c\u8a5e"
+         },
+         {
+            "hiragana":"\u3068\u3051\u308b",
+            "definition":"to melt; to thaw; to fuse; to dissolve",
+            "kanji":"\u6eb6\u3051\u308b"
+         },
+         {
+            "hiragana":"\u3057\u305f\u3057\u3080",
+            "definition":"to be intimate with; to befriend",
+            "kanji":"\u89aa\u3057\u3080"
+         },
+         {
+            "hiragana":"\u305f\u3093\u3058\u3087\u3046\u3059\u308b",
+            "definition":"to birth; to create",
+            "kanji":"\u8a95\u751f\u3059\u308b"
+         },
+         {
+            "hiragana":"\u307b\u3093\u3089\u3044",
+            "definition":"originally; primarily; essentially",
+            "kanji":"\u672c\u6765"
+         },
+         {
+            "hiragana":"\u3044\u3068\u3059\u308b",
+            "definition":"to intent ; to aim; to design",
+            "kanji":"\u610f\u56f3\u3059\u308b"
+         },
+         {
+            "hiragana":"\u3051\u3044\u3057\u304d",
+            "definition":"form; formality",
+            "kanji":"\u5f62\u5f0f"
+         },
+         {
+            "hiragana":"\u3057\u3085\u3060\u3093",
+            "definition":"means; way; measure",
+            "kanji":"\u624b\u6bb5"
+         },
+         {
+            "hiragana":"\u304d\u304a\u304f\u3059\u308b",
+            "definition":"to commit something to; memory",
+            "kanji":"\u8a18\u61b6\u3059\u308b"
+         },
+         {
+            "hiragana":"\u307e\u3054",
+            "definition":"grandchild",
+            "kanji":"\u5b6b"
+         },
+         {
+            "hiragana":"\u3080\u3059\u3081",
+            "definition":"(my) daughter; girl",
+            "kanji":"\u5a18"
+         },
+         {
+            "hiragana":"\u301c\u3060\u3044",
+            "definition":"counter for decades of ages",
+            "kanji":"\u301c\u4ee3"
+         }
+      ]
+   },
+   {
+      "chapter":14,
+      "name":"１４課",
+      "vocab":[
+         {
+            "definition":"politician; statesman",
+            "hiragana":"\u305b\u3044\u3058\u304b",
+            "kanji":"\u653f\u6cbb\u5bb6"
+         },
+         {
+            "definition":"condition; term; requirement",
+            "hiragana":"\u3058\u3087\u3046\u3051\u3093",
+            "kanji":"\u6761\u4ef6"
+         },
+         {
+            "definition":"outside the country",
+            "hiragana":"\u3053\u304f\u304c\u3044",
+            "kanji":"\u56fd\u5916"
+         },
+         {
+            "definition":"concern; interest",
+            "hiragana":"\u304b\u3093\u3057\u3093",
+            "kanji":"\u95a2\u5fc3"
+         },
+         {
+            "definition":"to cover; report",
+            "hiragana":"\u307b\u3046\u3069\u3046\u3059\u308b",
+            "kanji":"\u5831\u9053\u3059\u308b"
+         },
+         {
+            "definition":"global warming",
+            "hiragana":"\u3061\u304d\u3085\u3046\u304a\u3093\u3060\u3093\u304b",
+            "kanji":"\u5730\u7403\u6e29\u6696\u5316"
+         },
+         {
+            "definition":"notice; attention; observation",
+            "hiragana":"\u3061\u3085\u3046\u3082\u304f\u3059\u308b",
+            "kanji":"\u6ce8\u76ee\u3059\u308b"
+         },
+         {
+            "definition":"National Diet; parliament; congress",
+            "hiragana":"\u3053\u3063\u304b\u3044",
+            "kanji":"\u56fd\u4f1a"
+         },
+         {
+            "definition":"election",
+            "hiragana":"\u305b\u3093\u304d\u3087",
+            "kanji":"\u9078\u6319"
+         },
+         {
+            "definition":"acquaintance",
+            "hiragana":"\u3057\u308a\u3042\u3044",
+            "kanji":"\u77e5\u308a\u5408\u3044"
+         },
+         {
+            "definition":"professor; teaching; instruction",
+            "hiragana":"\u304d\u3087\u3046\u3058\u3085",
+            "kanji":"\u6559\u6388"
+         },
+         {
+            "definition":"to influent; to control; to dominate",
+            "hiragana":"\u3055\u3086\u3046\u3059\u308b",
+            "kanji":"\u5de6\u53f3\u3059\u308b"
+         },
+         {
+            "definition":"grandfather",
+            "hiragana":"\u305d\u3075",
+            "kanji":"\u7956\u7236"
+         },
+         {
+            "definition":"grandmother",
+            "hiragana":"\u305d\u307c",
+            "kanji":"\u7956\u6bcd"
+         },
+         {
+            "definition":"concrete; tangible; definite; specific",
+            "hiragana":"\u3050\u305f\u3044\u3066\u304d",
+            "kanji":"\u5177\u4f53\u7684"
+         },
+         {
+            "definition":"to practice; to perform",
+            "hiragana":"\u3058\u3063\u3053\u3046\u3059\u308b",
+            "kanji":"\u5b9f\u884c\u3059\u308b"
+         },
+         {
+            "definition":"to plan; to project; to schedule",
+            "hiragana":"\u3051\u3044\u304b\u304f\u3059\u308b",
+            "kanji":"\u8a08\u753b\u3059\u308b"
+         },
+         {
+            "definition":"mark; objective; target",
+            "hiragana":"\u3082\u304f\u3072\u3087\u3046",
+            "kanji":"\u76ee\u6a19"
+         },
+         {
+            "definition":"arrangement; promise; appointment",
+            "hiragana":"\u3084\u304f\u305d\u304f",
+            "kanji":"\u7d04\u675f"
+         },
+         {
+            "definition":"to take the place of; to relieve; to be substituted for",
+            "hiragana":"\u304b\u308f\u308b",
+            "kanji":"\u4ee3\u308f\u308b"
+         },
+         {
+            "definition":"voting; poll",
+            "hiragana":"\u3068\u3046\u3072\u3087\u3046\u3059\u308b",
+            "kanji":"\u6295\u7968\u3059\u308b"
+         },
+         {
+            "definition":"attitude; manner; behaviour",
+            "hiragana":"\u305f\u3044\u3069",
+            "kanji":"\u614b\u5ea6"
+         },
+         {
+            "definition":"duty; responsibility (supervision of staff); liability; onus",
+            "hiragana":"\u305b\u304d\u306b\u3093",
+            "kanji":"\u8cac\u4efb"
+         },
+         {
+            "definition":"suffrage",
+            "hiragana":"\u305b\u3093\u304d\u3087\u3051\u3093",
+            "kanji":"\u9078\u6319\u6a29"
+         },
+         {
+            "definition":"all members (unanimity); all hands; the whole crew; everyone",
+            "hiragana":"\u305c\u3093\u3044\u3093",
+            "kanji":"\u5168\u54e1"
+         },
+         {
+            "definition":"apathetic; indifferent",
+            "hiragana":"\u3080\u304b\u3093\u3057\u3093",
+            "kanji":"\u7121\u95a2\u5fc3"
+         },
+         {
+            "definition":"time; season; period",
+            "hiragana":"\u3058\u304d",
+            "kanji":"\u6642\u671f"
+         },
+         {
+            "definition":"inside; within",
+            "hiragana":"\u301c\u306a\u3044",
+            "kanji":"\u301c\u5185"
+         },
+         {
+            "definition":"appointed day; very day",
+            "hiragana":"\u3068\u3046\u3058\u3064",
+            "kanji":"\u5f53\u65e5"
+         },
+         {
+            "definition":"occupation; business",
+            "hiragana":"\u3057\u3087\u304f\u304e\u3087\u3046",
+            "kanji":"\u8077\u696d"
+         },
+         {
+            "definition":"to value; to assess; to estimate value",
+            "hiragana":"\u3072\u3087\u3046\u304b\u3059\u308b",
+            "kanji":"\u8a55\u4fa1\u3059\u308b"
+         },
+         {
+            "definition":"Prime Minister",
+            "hiragana":"\u305d\u3046\u308a\u3060\u3044\u3058\u3093",
+            "kanji":"\u7dcf\u7406\u5927\u81e3"
+         },
+         {
+            "definition":"except",
+            "hiragana":"\u301c\u3092\u306e\u305e\u3044\u3066",
+            "kanji":"\u301c\u3092\u9664\u3044\u3066"
+         },
+         {
+            "definition":"poverty",
+            "hiragana":"\u3072\u3093\u3053\u3093",
+            "kanji":"\u8ca7\u56f0"
+         },
+         {
+            "definition":"area; region",
+            "hiragana":"\u3061\u3044\u304d",
+            "kanji":"\u5730\u57df"
+         },
+         {
+            "definition":"democracy",
+            "hiragana":"\u307f\u3093\u3057\u3085\u3057\u3085\u304e",
+            "kanji":"\u6c11\u4e3b\u4e3b\u7fa9"
+         },
+         {
+            "definition":"member of the Diet, congress or parliament",
+            "hiragana":"\u304e\u3044\u3093",
+            "kanji":"\u8b70\u54e1"
+         },
+         {
+            "definition":"to announce one's candidacy",
+            "hiragana":"\u308a\u3063\u3053\u3046\u307b\u3059\u308b",
+            "kanji":"\u7acb\u5019\u88dc\u3059\u308b"
+         },
+         {
+            "definition":"candidate",
+            "hiragana":"\u3053\u3046\u307b\u3057\u3083",
+            "kanji":"\u5019\u88dc\u8005"
+         },
+         {
+            "definition":"advertising sign; display",
+            "hiragana":"\u304b\u3093\u3070\u3093",
+            "kanji":"\u770b\u677f"
+         },
+         {
+            "definition":"once; tentatively; in outline; for the time being; just in case",
+            "hiragana":"\u3044\u3061\u304a\u3046",
+            "kanji":"\u4e00\u5fdc"
+         },
+         {
+            "definition":"to get elected; win a prize",
+            "hiragana":"\u3068\u3046\u305b\u3093\u3059\u308b",
+            "kanji":"\u5f53\u9078\u3059\u308b"
+         },
+         {
+            "definition":"to fail to be elected",
+            "hiragana":"\u3089\u304f\u305b\u3093\u3059\u308b",
+            "kanji":"\u843d\u9078\u3059\u308b"
+         },
+         {
+            "definition":"to amend; revise (rules, law, etc)",
+            "hiragana":"\u304b\u3044\u305b\u3044\u3059\u308b",
+            "kanji":"\u6539\u6b63\u3059\u308b"
+         },
+         {
+            "definition":"political measures; policy",
+            "hiragana":"\u305b\u3044\u3055\u304f",
+            "kanji":"\u653f\u7b56"
+         },
+         {
+            "definition":"to make a public speech",
+            "hiragana":"\u3048\u3093\u305c\u3064\u3059\u308b",
+            "kanji":"\u6f14\u8aac\u3059\u308b"
+         },
+         {
+            "definition":"to serve: fill a post",
+            "hiragana":"\u3064\u3068\u3081\u308b",
+            "kanji":"\u52d9\u3081\u308b"
+         },
+         {
+            "definition":"political party",
+            "hiragana":"\u305b\u3044\u3068\u3046",
+            "kanji":"\u653f\u515a"
+         },
+         {
+            "definition":"prefectural governor",
+            "hiragana":"\u3061\u3058",
+            "kanji":"\u77e5\u4e8b"
+         },
+         {
+            "definition":"mayor",
+            "hiragana":"\u3057\u3061\u3087\u3046",
+            "kanji":"\u5e02\u9577"
+         },
+         {
+            "definition":"to retire",
+            "hiragana":"\u3044\u3093\u305f\u3044\u3059\u308b",
+            "kanji":"\u5f15\u9000\u3059\u308b"
+         },
+         {
+            "definition":"to violate",
+            "hiragana":"\u3044\u306f\u3093\u3059\u308b",
+            "kanji":"\u9055\u53cd\u3059\u308b"
+         },
+         {
+            "definition":"to be separated from; to leave; to go away",
+            "hiragana":"\u306f\u306a\u308c\u308b",
+            "kanji":"\u96e2\u308c\u308b"
+         },
+         {
+            "definition":"to debate; discussion",
+            "hiragana":"\u3068\u3046\u308d\u3093\u3059\u308b",
+            "kanji":"\u8a0e\u8ad6\u3059\u308b"
+         },
+         {
+            "definition":"chairmanship; leading a meeting",
+            "hiragana":"\u3057\u304b\u3044",
+            "kanji":"\u53f8\u4f1a"
+         },
+         {
+            "definition":"to support",
+            "hiragana":"\u3057\u3058\u3059\u308b",
+            "kanji":"\u652f\u6301\u3059\u308b"
+         },
+         {
+            "definition":"seriousness; earnestness",
+            "hiragana":"\u3057\u3093\u3051\u3093\u306a",
+            "kanji":"\u771f\u5263\u306a"
+         },
+         {
+            "definition":"atmosphere; mood",
+            "hiragana":"\u3075\u3093\u3044\u304d",
+            "kanji":"\u96f0\u56f2\u6c17"
+         },
+         {
+            "definition":"dependent upon; as soon as; immediately (upon)",
+            "hiragana":"\u301c\u3057\u3060\u3044",
+            "kanji":"\u301c\u6b21\u7b2c"
+         },
+         {
+            "definition":"be (do) not always (necessarily)",
+            "hiragana":"\u301c\u3068\u306f\u304b\u304e\u3089\u306a\u3044",
+            "kanji":"\u301c\u3068\u306f\u9650\u3089\u306a\u3044"
+         },
+         {
+            "definition":"prejudice; narrow view",
+            "hiragana":"\u3078\u3093\u3051\u3093",
+            "kanji":"\u504f\u898b"
+         },
+         {
+            "definition":"to apply; to implement; to reflect",
+            "hiragana":"\u306f\u3093\u3048\u3044\u3059\u308b",
+            "kanji":"\u53cd\u6620\u3059\u308b"
+         },
+         {
+            "definition":"to argue; to discuss",
+            "hiragana":"\u304e\u308d\u3093\u3059\u308b",
+            "kanji":"\u8b70\u8ad6\u3059\u308b"
+         }
+      ]
+   },
+   {
+      "chapter":15,
+      "name":"１５課",
+      "vocab":[
+         {
+            "hiragana":"\u304e\u3082\u3093",
+            "kanji":"\u7591\u554f",
+            "definition":"question; doubt;"
+         },
+         {
+            "hiragana":"\u3053\u3046\u3069\u3046\u3059\u308b",
+            "kanji":"\u884c\u52d5\u3059\u308b",
+            "definition":"to act"
+         },
+         {
+            "hiragana":"\u307e\u308f\u308a",
+            "kanji":"\u5468\u308a",
+            "definition":"circumference; perimeter; edge; surroundings;"
+         },
+         {
+            "hiragana":"\u306f\u304f\u3058\u3093",
+            "kanji":"\u767d\u4eba",
+            "definition":"white person; Caucasian"
+         },
+         {
+            "hiragana":"\u3058\u3085\u3046\u3076\u3093\u306a",
+            "kanji":"\u5341\u5206\u306a",
+            "definition":"plenty; enough; sufficient; satisfactory"
+         },
+         {
+            "hiragana":"\u3075\u3068\u308b",
+            "kanji":"\u592a\u308b",
+            "definition":"to grow fat (stout, plump); to become fat; to gain weight"
+         },
+         {
+            "hiragana":"\u3057",
+            "kanji":"\u6b7b",
+            "definition":"death"
+         },
+         {
+            "hiragana":"\u306a\u304b\u307e",
+            "kanji":"\u4ef2\u9593",
+            "definition":"fellow; circle of friends"
+         },
+         {
+            "hiragana":"\u306a\u304c\u3044\u304d\u3059\u308b",
+            "kanji":"\u9577\u751f\u304d\u3059\u308b",
+            "definition":"to live a long life"
+         },
+         {
+            "hiragana":"\u304b\u3048\u308b",
+            "kanji":"\u8fd4\u308b",
+            "definition":"to return; to come back; to go back; to turn over"
+         },
+         {
+            "hiragana":"\u3064\u304d\u3042\u3044",
+            "kanji":"\u4ed8\u304d\u5408\u3044",
+            "definition":"association; socialization"
+         },
+         {
+            "hiragana":"\u304d\u307c\u3046\u3059\u308b",
+            "kanji":"\u5e0c\u671b\u3059\u308b",
+            "definition":"to hope; to wish"
+         },
+         {
+            "hiragana":"\u306a\u3084\u307f",
+            "kanji":"\u60a9\u307f",
+            "definition":"trouble; worry; distress"
+         },
+         {
+            "hiragana":"\u306a\u3084\u3080",
+            "kanji":"\u60a9\u3080",
+            "definition":"to be worried; to be troubled"
+         },
+         {
+            "hiragana":"\u3075\u3042\u3093\u306a",
+            "kanji":"\u4e0d\u5b89\u306a",
+            "definition":"ignorance; inexperience; unfamiliarity"
+         },
+         {
+            "hiragana":"\u3086\u305f\u304b\u306a",
+            "kanji":"\u8c4a\u304b\u306a",
+            "definition":"wealthy; plentiful; rich; affluent"
+         },
+         {
+            "hiragana":"\u3066\u306b\u3044\u308c\u308b",
+            "kanji":"\u624b\u306b\u5165\u308c\u308b",
+            "definition":"to obtain"
+         },
+         {
+            "hiragana":"\u301c\u3044\u3089\u3044",
+            "kanji":"\u301c\u4ee5\u6765",
+            "definition":"since; henceforth"
+         },
+         {
+            "hiragana":"\u3076\u3063\u3057\u3064",
+            "kanji":"\u7269\u8cea",
+            "definition":"material; substance"
+         },
+         {
+            "hiragana":"\u3068\u3069\u304f",
+            "kanji":"\u5c4a\u304f",
+            "definition":"to reach; to arrive; to get through; to get at"
+         },
+         {
+            "hiragana":"\u301c\u3068\u3069\u3046\u3058\u306b",
+            "kanji":"\u301c\u3068\u540c\u6642\u306b",
+            "definition":"simultaneously; concurrent; same time"
+         },
+         {
+            "hiragana":"\u3072\u308d\u3081\u308b",
+            "kanji":"\u5e83\u3081\u308b",
+            "definition":"to broaden; propagate"
+         },
+         {
+            "hiragana":"\u3055\u3044\u301c",
+            "kanji":"\u518d\u301c",
+            "definition":"re~"
+         },
+         {
+            "hiragana":"\u304d\u3087\u3046\u3064\u3046",
+            "kanji":"\u5171\u901a",
+            "definition":"commonness; community"
+         },
+         {
+            "hiragana":"\u307e\u305a\u3057\u3044",
+            "kanji":"\u8ca7\u3057\u3044",
+            "definition":"poor; needy"
+         },
+         {
+            "hiragana":"\u3046\u3048\u308b",
+            "kanji":"\u690d\u3048\u308b",
+            "definition":"to plant; to grow"
+         },
+         {
+            "hiragana":"\u3057\u3093\u308a\u3093",
+            "kanji":"\u68ee\u6797",
+            "definition":"forest; woods"
+         },
+         {
+            "hiragana":"\u3080\u308a\u3087\u3046",
+            "kanji":"\u7121\u6599",
+            "definition":"free; no charge"
+         },
+         {
+            "hiragana":"\u307f\u3069\u308a",
+            "kanji":"\u7dd1",
+            "definition":"green"
+         },
+         {
+            "hiragana":"\u304a\u3082\u3066",
+            "kanji":"\u8868",
+            "definition":"face; front"
+         },
+         {
+            "hiragana":"\u3078\u3044\u304d\u306a",
+            "kanji":"\u5e73\u6c17\u306a",
+            "definition":"unconcerned; cool"
+         },
+         {
+            "hiragana":"\u3059\u3066\u308b",
+            "kanji":"\u6368\u3066\u308b",
+            "definition":"to throw away; to cast aside; to abandon"
+         },
+         {
+            "hiragana":"\u3042\u305f\u308a\u307e\u3048",
+            "kanji":"\u5f53\u305f\u308a\u524d",
+            "definition":"natural; reasonable; obvious"
+         },
+         {
+            "hiragana":"\u3088\u305d\u304f\u3059\u308b",
+            "kanji":"\u4e88\u6e2c\u3059\u308b",
+            "definition":"prediction; estimation"
+         },
+         {
+            "hiragana":"\u3058\u3093\u3057\u3085",
+            "kanji":"\u4eba\u7a2e",
+            "definition":"race (of people)"
+         },
+         {
+            "hiragana":"\u305f\u3044\u3078\u3044\u3088\u3046",
+            "kanji":"\u592a\u5e73\u6d0b",
+            "definition":"Pacific Ocean"
+         },
+         {
+            "hiragana":"\u3048\u3044\u3088\u3046",
+            "kanji":"\u6804\u990a",
+            "definition":"nutrition; nourishment"
+         },
+         {
+            "hiragana":"\u304a\u305d\u308c\u308b",
+            "kanji":"\u6050\u308c\u308b",
+            "definition":"to fear; to be afraid of"
+         },
+         {
+            "hiragana":"\u301c\u306b\u3057\u305f\u304c\u3063\u3066",
+            "kanji":"\u301c\u306b\u5f93\u3063\u3066",
+            "definition":"to abide (by the rules); to obey; to follow; to accompany"
+         },
+         {
+            "hiragana":"\u3081\u3050\u307e\u308c\u308b",
+            "kanji":"\u6075\u307e\u308c\u308b",
+            "definition":"to be blessed with; to be rich in; to abound in"
+         },
+         {
+            "hiragana":"\u3053\u3046\u308c\u3044\u3057\u3083",
+            "kanji":"\u9ad8\u9f62\u8005",
+            "definition":"old person or people"
+         },
+         {
+            "hiragana":"\u3058\u3085\u307f\u3087\u3046",
+            "kanji":"\u5bff\u547d",
+            "definition":"life span"
+         },
+         {
+            "hiragana":"\u306e\u3073\u308b",
+            "kanji":"\u5ef6\u3073\u308b",
+            "definition":"to stretch; to extend; to lengthen; to spread; to make progress; to grow"
+         },
+         {
+            "hiragana":"\u3053\u304f\u308c\u3093",
+            "kanji":"\u56fd\u9023",
+            "definition":"UN; United Nations"
+         },
+         {
+            "hiragana":"\u308d\u3046\u3054",
+            "kanji":"\u8001\u5f8c",
+            "definition":"old age"
+         },
+         {
+            "hiragana":"\u3057\u3085\u3046\u306b\u3085\u3046",
+            "kanji":"\u53ce\u5165",
+            "definition":"income; receipts; revenue"
+         },
+         {
+            "hiragana":"\u3056\u3044\u3055\u3093",
+            "kanji":"\u8ca1\u7523",
+            "definition":"property; fortune; assets"
+         },
+         {
+            "hiragana":"\u3058\u3085\u3046\u307f\u3093",
+            "kanji":"\u4f4f\u6c11",
+            "definition":"citizens; inhabitants; residents; population"
+         },
+         {
+            "hiragana":"\u308d\u3046\u3069\u3046\u3059\u308b",
+            "kanji":"\u52b4\u50cd\u3059\u308b",
+            "definition":"manual labor; toil; work"
+         },
+         {
+            "hiragana":"\u3061\u3087\u304d\u3093\u3059\u308b",
+            "kanji":"\u8caf\u91d1\u3059\u308b",
+            "definition":"to save"
+         },
+         {
+            "hiragana":"\u3048\u3044\u305b\u3044\u3066\u304d",
+            "kanji":"\u885b\u751f\u7684",
+            "definition":"hygienic; sanitary"
+         },
+         {
+            "hiragana":"\u307f\u305f\u3059",
+            "kanji":"\u6e80\u305f\u3059",
+            "definition":"to satisfy; to ingratiate; to fulfill; to fill"
+         },
+         {
+            "hiragana":"\u3068\u308a\u3082\u3069\u3059",
+            "kanji":"\u53d6\u308a\u623b\u3059",
+            "definition":"to take back; to regain; to get back; to recover"
+         },
+         {
+            "hiragana":"\u301c\u3057\u3087\u3046",
+            "kanji":"\u301c\u8cde",
+            "definition":"prize; award"
+         },
+         {
+            "hiragana":"\u3058\u3085\u3057\u3087\u3046\u3059\u308b",
+            "kanji":"\u53d7\u8cde\u3059\u308b",
+            "definition":"to be awarded a prize"
+         },
+         {
+            "hiragana":"\u3076\u3093\u3084",
+            "kanji":"\u5206\u91ce",
+            "definition":"field; sphere; realm"
+         },
+         {
+            "hiragana":"\u3057\u3052\u3093",
+            "kanji":"\u8cc7\u6e90",
+            "definition":"resources"
+         },
+         {
+            "hiragana":"\u304b\u3044\u305c\u3093\u3059\u308b",
+            "kanji":"\u6539\u5584\u3059\u308b",
+            "definition":"betterment; improvement"
+         },
+         {
+            "hiragana":"\u306e\u3046\u304b",
+            "kanji":"\u8fb2\u5bb6",
+            "definition":"farmer; farm family"
+         },
+         {
+            "hiragana":"\u306f\u304b\u3044\u3059\u308b",
+            "kanji":"\u7834\u58ca\u3059\u308b",
+            "definition":"to destroy"
+         },
+         {
+            "hiragana":"\u307c\u3046\u3057\u3059\u308b",
+            "kanji":"\u9632\u6b62\u3059\u308b",
+            "definition":"prevention; check"
+         },
+         {
+            "hiragana":"\u307c\u304d\u3093",
+            "kanji":"\u52df\u91d1",
+            "definition":"fund-raising; collection of funds"
+         },
+         {
+            "hiragana":"\u304d\u3075\u3059\u308b",
+            "kanji":"\u5bc4\u4ed8\u3059\u308b",
+            "definition":"contribution; donation"
+         },
+         {
+            "hiragana":"\u3046\u3089",
+            "kanji":"\u88cf",
+            "definition":"another side that is hidden from view; undersurface; opposite side; reverse side"
+         }
+      ]
+   }
 ]

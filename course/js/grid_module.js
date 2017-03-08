@@ -13,7 +13,7 @@ define(['jquery','vivus'], function ($,vivus) {
 
     function addGrid(data) {
       if (data) {
-        data = data[0]
+        data = data[0];
         var columns = data.columns;
         var rows = data.rows;
         var w = data.colwidth;
@@ -27,7 +27,7 @@ define(['jquery','vivus'], function ($,vivus) {
         var rat = fullw/maxh;
         var $youshi = $('#youshi');
         var $main = $('#main');
-        $youshi.attr('viewBox',"0 0 "+fullw + " "+maxh)
+        $youshi.attr('viewBox',"0 0 "+fullw + " "+maxh);
         $main.css({
           'width' : 95 + 'vw',
           'height' : (95 / rat) + 'vw',
@@ -36,21 +36,21 @@ define(['jquery','vivus'], function ($,vivus) {
         });
 
         //
-        $youshi.append($('<path class="grid" d="M 0 0 h '+fullw+' M 0 '+maxh+' h '+fullw+' fill="none" stroke="gray" stroke-width="1"/>'))
-        //bottom
+        $youshi.append($('<path class="grid" d="M0,0 h'+fullw+' M0,'+maxh+' h'+fullw+' fill="none" stroke="gray" stroke-width="1"/>'));
+        // bottom
         // $youshi.append($('<path d="M 0 '+maxh+' h '+fullw+' fill="none" stroke="gray" stroke-width="1"/>'))
-        //right
+        // right
         // $youshi.append($('<path d="M '+fullw+' 0 v '+maxh+' fill="none" stroke="gray" stroke-width="1"/>'))
         for (var i = 0; i < columns; i++) {
           var path = '<path class="grid" d="';
-          path += 'M '+ (maxw - (i*(w+cg))) +' 0 v ' + maxh + ' ';
+          path += 'M'+ (maxw - (i*(w+cg))) +',0 v' + maxh + ' ';
           // $youshi.append($('<path d="M '+ (maxw - (i*(w+cg))) +' 0 v ' + maxh + '" fill="none" stroke="gray" stroke-width="1"/>'))
           if (cg > 0) {
-            path += 'M '+ (maxw - w - (i*(w + cg))) +' 0 v ' + maxh + ' '
+            path += 'M'+ (maxw - w - (i*(w + cg))) +',0 v' + maxh + ' '
             // $youshi.append($('<path d="M '+ (maxw - w - (i*(w + cg))) +' 0 v ' + maxh + '" fill="none" stroke="gray" stroke-width="1"/>'))
           }
           for (var j = 0; j < rows + 1; j++) {
-            path += 'M ' + (maxw - (i*(w+cg))) +' '+ (j * h) + ' h ' + (-1 * w) + ' '
+            path += 'M' + (maxw - (i*(w+cg))) +','+ (j * h) + ' h' + (-1 * w) + ' '
             // $youshi.append($('<path d="M ' + (maxw - (i*(w+cg))) +' '+ (j * h) + ' h ' + (-1 * w) + ' fill="none" stroke="gray" stroke-width="1"/>'))
           }
           path += ' fill="none" stroke="gray" stroke-width="1"/>'
