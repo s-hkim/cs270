@@ -1,0 +1,104 @@
+@gray : #999;
+@lightgray : #ddd;
+@white : #222;
+
+body {
+  font-family: "Sawarabi Mincho", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  /*font-size: 100%;*/
+  text-align: center;
+  width: 100%;
+  color: @white;
+  margin: 20px 0 20px 0;
+  overflow: auto;
+}
+a:link, a:hover, a:visited {
+  color: @gray;
+}
+.hidden {
+  display: none;
+}
+.nav {
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  font-size: 120%;
+}
+.nav-item {
+  flex-grow: 1;
+  border: 1px solid @gray;
+}
+.nav-item:hover {
+  background-color: @lightgray;
+}
+.headerino {
+  position: relative;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 200%;
+}
+.background-cell {
+  height: 100%;
+  flex-grow: 1;
+  border-bottom: 1px solid @gray;
+  flex-basis: 0;
+}
+.head-cell {
+  height: 100%;
+  border: 1px solid @gray;
+  flex-basis: auto;
+  flex-grow: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.wrapper {
+  position: relative;
+  padding-bottom: 20px;
+}
+#main {
+  position: relative;
+  // width: 94%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  top:0;bottom:0;
+  left:0;right:0;
+  padding: 0 2px 2px 2px;
+}
+#svgcont {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  margin: auto;
+  border-right: @gray 2px solid;
+  border-left: @gray 2px solid;
+  border-bottom: @gray 2px solid;
+}
+#youshi {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+.grid {
+  stroke: @gray;
+}
+
+#foot {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: @gray;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-size: 75%;
+  color: @gray;
+}

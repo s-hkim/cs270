@@ -1,0 +1,56 @@
+[
+    {
+        "row" : 2,
+        "col" : 1,
+        "name" : "日本語　三〇六",
+        "url" : "#"
+    },
+    {
+       "row" : 13,
+       "col" : 2,
+       "name" : "黒川直子",
+       "url" : "https://asianmideast.duke.edu/people/naoko-kurokawa"
+    },
+    {
+        "row" : 6,
+        "col" : 7,
+        "name" : "ホームページ",
+        "url" : "#"
+    },
+    {
+        "row" : 6,
+        "col" : 8,
+        "name" : "シラバス",
+        "url" : "#calendar"
+    },
+    {
+        "row" : 6,
+        "col" : 9,
+        "name" : "ブログ",
+        "url" : "https://sites.duke.edu/jpn306_01_s2017/"
+    },
+    {
+        "row" : 6,
+        "col" : 10,
+        "name" : "宿題",
+        "url" : "homework.html"
+    },
+    {
+        "row" : 6,
+        "col" : 11,
+        "name" : "漢字",
+        "url" : "kanji.html"
+    },
+    {
+        "row" : 6,
+        "col" : 12,
+        "name" : "便利なサイト",
+        "url" : "#resources"
+    },
+    {
+        "row" : 6,
+        "col" : 13,
+        "name" : "連絡情報",
+        "url" : "https://asianmideast.duke.edu/people/naoko-kurokawa"
+    }
+]

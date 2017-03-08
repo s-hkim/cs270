@@ -1,0 +1,30 @@
+@gray : #999;
+@lightgray : #ddd;
+@white : #fff;
+
+.cal {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  border: 2px solid @gray;
+}
+.cal-row {
+  display: flex;
+  flex-direction: row;
+}
+.cal-row.dark {
+  background: @lightgray;
+}
+.cal-cell-1{
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.cal-cell-2{
+  .cal-cell-1;
+  flex-grow: 2;
+}
+.cal-cell-3{
+  .cal-cell-1;
+  flex-grow: 3;
+  border-left: 1px solid @white;
+}
