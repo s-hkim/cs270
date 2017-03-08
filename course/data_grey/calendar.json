@@ -218,8 +218,8 @@
    },
    {
       "homework":"11:59pm",
-      "activities":"5\u65e5(\u571f)",
-      "day":"",
+      "activities":"",
+      "day":"5\u65e5(\u571f)",
       "month":"",
       "quizzes":"E\u30e1\u30fc\u30eb\u2461\u9001\u4ed8"
    },
@@ -309,8 +309,8 @@
    },
    {
       "homework":"",
-      "activities":"4\u65e511:59pm\u307e\u3067\u306bDropbox\u306b)",
-      "day":"",
+      "activities":"11:59pm\u307e\u3067\u306bDropbox\u306b)",
+      "day":"4\u65e5",
       "month":"",
       "quizzes":"\uff08PPT1-3:"
    },
