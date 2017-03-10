@@ -19,9 +19,11 @@ require([
     "grid_module",
     "content_module",
     "chapters_module",
-    "calendar_module"],
+    "calendar_module",
+    "events_module"
+  ],
 
-    function (less, $, vivus, grid, content, chapters, calendar) {
+    function (less, $, vivus, grid, content, chapters, calendar, events) {
         /*
          * variables to configure where to specify JSON data and how to process it
          * YOU MAY NEED TO MODIFY THESE
@@ -66,5 +68,6 @@ require([
         loadJSON(contentFile, contentModuleAction);
         loadJSON(navFile, navModuleAction);
         loadJSON(hwFile, hwModuleAction);
+        events.init();
     }
 );

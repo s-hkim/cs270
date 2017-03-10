@@ -18,9 +18,16 @@ define(['jquery','vocab_module'], function ($,vocab) {
           var v = l.vocab;
           var $k = $('<div/>').addClass('hw-kanji').addClass('nav-item')
                               .append($('<a href="kanji.html#'+cn+'">漢字</a>'));
+
+          var $tan = $('<div/>').addClass('hw-tango').addClass('nav-item')
+                              .text('単語');
           var $vo = vocab.make(v);
           $homework.append($k);
           $homework.append($vo);
+          $tan.click(function(e) {
+            $vo.slideToggle();
+          })
+          // https://codepen.io/giana/pen/yYBpVY/ TODO
         });
       } else {
         error('No data!');

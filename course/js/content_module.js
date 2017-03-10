@@ -5,6 +5,9 @@
 
 define(['jquery'], function ($,vivus) {
     // throw a generic error
+    const CONT_FADE = 2000;
+    const SCROLL_SPEED = 400;
+
     function error(msg) {
         throw "Error: " + msg;
     }
@@ -35,7 +38,7 @@ define(['jquery'], function ($,vivus) {
             var $this = $(this);
             var loc = $this.data('location');
             if (loc.startsWith('#')){
-              $('html,body').animate({ scrollTop: $(loc).offset().top }, 400);
+              $('html,body').animate({ scrollTop: $(loc).offset().top }, SCROLL_SPEED);
             }
             else {
               window.location = loc;
@@ -45,7 +48,7 @@ define(['jquery'], function ($,vivus) {
 
         });
         $( document ).ready(function() {
-          $( ".youshi-full" ).fadeIn( 1000, function() {
+          $( ".youshi-full" ).fadeIn( CONT_FADE, function() {
             // Animation complete
           });
         });

@@ -1,11 +1,11 @@
 [
   {
-    "hpadding" : 3,
+    "hpadding" : 6,
     "columns" : 20,
     "rows" : 20,
     "colwidth" : 20,
     "rowheight" : 20,
-    "colgap" : 10, 
+    "colgap" : 10,
     "rowgap" : 0
   }
 ]
