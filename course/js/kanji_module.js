@@ -61,7 +61,7 @@ define(['jquery','vivus'], function ($,vivus) {
               function() {}
             );
           });
-          $('.hidden').fadeIn(500);
+          // $('.hidden').fadeIn(500);
         });
       }
 
