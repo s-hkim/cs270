@@ -26,6 +26,10 @@ a:link, a:hover, a:visited {
   margin: auto;
   border: 2px solid @gray;
 }
+.button-hover {
+  background-color: @lightgray;
+  cursor: pointer;
+}
 .nav {
   width: 80%;
   margin: auto;
@@ -40,8 +44,14 @@ a:link, a:hover, a:visited {
   border: 1px solid @darkgray;
 }
 .nav-item:hover {
-  background-color: @lightgray;
-  cursor: pointer;
+  .button-hover;
+}
+.t-button {
+  .nav-item;
+  color: @gray;
+}
+.t-button:hover {
+  .button-hover;
 }
 .headerino {
   position: relative;
@@ -76,23 +86,17 @@ a:link, a:hover, a:visited {
 }
 #main {
   position: relative;
-  // width: 94%;
   margin: auto;
   display: flex;
   justify-content: center;
   top:0;bottom:0;
   left:0;right:0;
-  // padding: 0 2px 2px 2px;
-  // outline: @gray 10px double;
 }
 #svgcont {
   position: relative;
   z-index: -1;
   width: 100%;
   margin: auto;
-  // border-right: @gray 2px solid;
-  // border-left: @gray 2px solid;
-  // border-bottom: @gray 2px solid;
 }
 #youshi {
   height: 100%;
@@ -122,4 +126,11 @@ footer {
   left: 0;
   font-size: 75%;
   color: @gray;
+}
+
+@media only screen and (max-width: 768px) {
+  #svgcont {
+    display: none;
+  }
+
 }

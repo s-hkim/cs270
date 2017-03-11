@@ -4,8 +4,6 @@
 #content {
   position:absolute;
   height: 100%;
-  // width: 98.3%;
-  // width: 100%;
   top: 0px;
   bottom: 0px;
   left: 0px;
@@ -16,14 +14,13 @@
   font-size: 140%;
   color: #333;
 
-  // font-weight: bold;
 }
 .youshi-col {
   height: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
-  flex-grow: 2;
+  flex-grow: 1;
   flex-shrink: 2;
   flex-basis: 0;
   align-items: center;
@@ -77,14 +74,30 @@
 
 @media only screen and (max-width: 1024px) {
   #content {
-    font-size: 120%;
+    font-size: 100%;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
   #content {
     font-size: 100%;
+  }
+  .youshi-col {
+    display: none;
+  }
+  .youshi-spacer {
+    display: none;
+  }
+  .youshi-col-full {
+    display: flex;
+    background-color: @lightgray;
+    outline: 2px solid @white;
+  }
+  #main {
+    margin-bottom: 20px;
+  }
+  #foot {
+    display: none;
   }
 
 }

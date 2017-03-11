@@ -30,7 +30,6 @@ require([
         const kanjiFile = folderPrefix + folderTheme + '/kanji.json';
         // actions to apply to JSON files
         //const lessAction = less.modifyVars;
-        // TODO: modify this line to call your code
         const kanjiModuleAction = kanji.init;
 
         /*

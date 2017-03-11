@@ -11,7 +11,7 @@ define(['jquery'], function ($) {
 
     function createBlock(data) {
       if (data.length > 0) {
-        var $block = $('<div/>');
+        var $block = $('<div/>').addClass('vocab-block');
         data.forEach(function(l,idx) {
           var $row = $('<div/>').addClass('vocab-row')
                       .append($('<div/>').addClass('vocab-cell').text(l.kanji))

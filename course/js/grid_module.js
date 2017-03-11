@@ -137,22 +137,26 @@ define(['jquery','vivus'], function ($,vivus) {
             $col.append($cell);
           }
           $box.append($col);
-          if (i < columns -1) {
-            $box.append($("<div/>").addClass('youshi-spacer'));
+          if (cg > 0) {
+            if (i < columns -1) {
+              $box.append($("<div/>").addClass('youshi-spacer').css('flex-grow',cg/w));
+            }
           }
         }
         var $footer = $('#foot')
         $footer.append('<span>'+rows +'ｘ'+ columns+'</span>');
 
-        $('.loading').removeClass('loading');
-        new vivus('youshi', {delay: 0, duration: 5, type: 'scenario-sync'},function() {
-          $('.youshi-col-full').each(function(i,el) {
-            setTimeout(function() {
-              $(el).mouseenter();
-            },COLOR_DELAY * i);
-            setTimeout(function() {
-              $(el).mouseleave();
-            },COLOR_DELAY * i + COLOR_DUR);
+        $( document ).ready(function() {
+          $('.loading').removeClass('loading');
+          new vivus('youshi', {delay: 0, duration: 5, type: 'scenario-sync'},function() {
+            $('.youshi-col-full').each(function(i,el) {
+              setTimeout(function() {
+                $(el).mouseenter();
+              },COLOR_DELAY * i);
+              setTimeout(function() {
+                $(el).mouseleave();
+              },COLOR_DELAY * i + COLOR_DUR);
+            });
           });
         });
       }

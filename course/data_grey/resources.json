@@ -1,0 +1,34 @@
+[
+  {
+    "name" : "朝日新聞",
+    "link" : "www.asahi.com"
+  },
+  {
+    "name" : "毎日新聞",
+    "link" : "http://mainichi.jp/"
+  },
+  {
+    "name" : "読売新聞",
+    "link" : "http://www.yomiuri.co.jp/"
+  },
+  {
+    "name" : "日本経済新聞",
+    "link" : "http://www.nikkei.com/"
+  },
+  {
+    "name" : "ＴＢＳニュース",
+    "link" : "http://news.tbs.co.jp/"
+  },
+  {
+    "name" : "ＮＨＫニュース",
+    "link" : "http://www3.nhk.or.jp/news/index.html?page=mov"
+  },
+  {
+    "name" : "ひらがなめがね",
+    "link" : "http://www.hiragana.jp/"
+  },
+  {
+    "name" : "デューク漢字サイト",
+    "link" : "http://kanji.asianmideast.duke.edu"
+  }
+]

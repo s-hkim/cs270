@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Sung-Hoon Kim" />
+    <link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/temp.css" media="screen" />
+    <link rel="stylesheet" type="text/less" href="css/main.less" media="screen" />
+    <link rel="stylesheet" type="text/less" href="css/content.less" media="screen" />
+    <link rel="stylesheet" type="text/less" href="css/calendar.less" media="screen" />
+    <link rel="stylesheet" type="text/less" href="css/homework.less" media="screen" />
+    <link rel="stylesheet" type="text/less" href="css/resources.less" media="screen" />
+
+    <script src="http://code.jquery.com/qunit/qunit-2.1.1.js"></script>
+    <script id="script"
+            data-main="js/test"
+            src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.3/require.min.js"
+            theme="grey"></script>
+    <title>JPN 306</title>
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture">
+    <div class="wrapper loading">
+      <div id="main">
+        <div id="content"></div>
+        <div id="svgcont">
+          <svg id="youshi" xmlns="http://www.w3.org/2000/svg">
+          </svg>
+        </div>
+      </div>
+      <div id="foot">
+        <!-- <div id="kanji"></div> -->
+      </div>
+      <div class="cal section" id="calendar">
+        <div class="headerino">
+          <div class="background-cell"></div>
+          <div class="head-cell">シ</div>
+          <div class="head-cell">ラ</div>
+          <div class="head-cell">バ</div>
+          <div class="head-cell">ス</div>
+          <div class="background-cell"></div>
+        </div>
+        <div class="cal-row dark">
+          <div class="cal-cell-2">
+            <!-- date -->
+          </div>
+          <div class="cal-cell-3">
+            topics/activities
+          </div>
+          <div class="cal-cell-3">
+            quizzes/tests
+          </div>
+          <div class="cal-cell-3">
+            homework
+          </div>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="nav-item">
+          <a href=#>↩戻る</a>
+        </div>
+      </div>
+
+      <div class="hw section" id="hw">
+        <div class="headerino">
+          <div class="background-cell"></div>
+          <div class="head-cell">宿</div>
+          <div class="head-cell">題</div>
+          <div class="background-cell"></div>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="nav-item">
+          <a href=#>↩戻る</a>
+        </div>
+      </div>
+
+      <div class="resources section" id="resources">
+        <div class="headerino">
+          <div class="background-cell"></div>
+          <div class="head-cell">便</div>
+          <div class="head-cell">利</div>
+          <div class="head-cell">な</div>
+          <div class="head-cell">サ</div>
+          <div class="head-cell">イ</div>
+          <div class="head-cell">ト</div>
+          <div class="background-cell"></div>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="nav-item">
+          <a href=#>↩戻る</a>
+        </div>
+      </div>
+
+      <footer>
+        Kanji files from KanjiVG:
+        <a href="http://kanjivg.tagaini.net/index.html">
+          http://kanjivg.tagaini.net/index.html
+        </a> (© 2009-2015 Ulrich Apel)
+      </footer>
+    </div>
+  </div>
+
+</body>
+</html>

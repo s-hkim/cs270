@@ -50,18 +50,19 @@ define(['jquery','vivus'], function ($,vivus) {
           });
           $main.append($wrapper);
         });
-
-        $('.kanji-container').each(function(i,el){
-          var $el = $(el);
-          var seq = $el.attr('id');
-          var animation = new vivus('kanji-'+seq,{duration:100, type: "oneByOne"});
-          // animation.reset().play();
-          $el.hover(
-            function() {animation.stop().reset().play()},
-            function() {}
-          );
+        $( document ).ready(function() {
+          $('.kanji-container').each(function(i,el){
+            var $el = $(el);
+            var seq = $el.attr('id');
+            var animation = new vivus('kanji-'+seq,{duration:100, start: 'manual', type: "oneByOne"});
+            animation.finish();
+            $el.hover(
+              function() {animation.stop().reset().play()},
+              function() {}
+            );
+          });
+          $('.hidden').fadeIn(500);
         });
-
       }
 
       else {

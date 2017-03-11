@@ -2,6 +2,7 @@
    {
       "chapter":10,
       "name":"１０課",
+      "topic":"日本の便利な店",
       "vocab":[
          {
             "definition":"to visit; call",
@@ -318,6 +319,7 @@
    {
       "chapter":11,
       "name":"１１課",
+      "topic":"日本の歴史",
       "vocab":[
          {
             "kanji":"\u6b74\u53f2",
@@ -609,6 +611,7 @@
    {
       "chapter":12,
       "name":"１２課",
+      "topic":"日本の伝統工芸",
       "vocab":[
          {
             "hiragana":"\u308f\u3057",
@@ -910,6 +913,7 @@
    {
       "chapter":13,
       "name":"１３課",
+      "topic":"日本人と自然",
       "vocab":[
          {
             "hiragana":"\u305f\u308a\u308b",
@@ -1211,6 +1215,7 @@
    {
       "chapter":14,
       "name":"１４課",
+      "topic":"日本の政治",
       "vocab":[
          {
             "definition":"politician; statesman",
@@ -1532,6 +1537,7 @@
    {
       "chapter":15,
       "name":"１５課",
+      "topic":"世界と私の国の未来",
       "vocab":[
          {
             "hiragana":"\u304e\u3082\u3093",

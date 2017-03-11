@@ -20,10 +20,11 @@ require([
     "content_module",
     "chapters_module",
     "calendar_module",
+    "resources_module",
     "events_module"
   ],
 
-    function (less, $, vivus, grid, content, chapters, calendar, events) {
+    function (less, $, vivus, grid, content, chapters, calendar, resources, events) {
         /*
          * variables to configure where to specify JSON data and how to process it
          * YOU MAY NEED TO MODIFY THESE
@@ -36,14 +37,14 @@ require([
         const contentFile = folderPrefix + folderTheme + '/content.json';
         const navFile = folderPrefix + folderTheme + '/chapters.json';
         const hwFile = folderPrefix + folderTheme + '/calendar.json';
+        const resourcesFile = folderPrefix + folderTheme + '/resources.json';
         // actions to apply to JSON files
         //const lessAction = less.modifyVars;
-        // TODO: modify this line to call your code
         const gridModuleAction = grid.init;
         const contentModuleAction = content.init;
         const navModuleAction = chapters.init;
         const hwModuleAction = calendar.init;
-
+        const resourcesModuleAction = resources.init;
         /*
          * actually load JSON data and how to process it
          * YOU HOPEFULLY WILL NOT NEED TO MODIFY THIS
@@ -68,6 +69,7 @@ require([
         loadJSON(contentFile, contentModuleAction);
         loadJSON(navFile, navModuleAction);
         loadJSON(hwFile, hwModuleAction);
+        loadJSON(resourcesFile, resourcesModuleAction);
         events.init();
     }
 );
