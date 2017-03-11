@@ -95,7 +95,7 @@
                 assert.strictEqual($('.resources-cell').length, 16, 'resources cells loaded');
                 events.init();
               });
-              $('.nav-item').first().trigger('click');
+              // $('.nav-item').first().trigger('click');
               // assert.strictEqual(window.location.href, "file:///C:/Users/Sung-Hoon/Documents/COMPSCI/portfolio/course/test.html#", 'nav-item click');
 
 

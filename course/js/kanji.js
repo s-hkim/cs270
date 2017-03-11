@@ -16,9 +16,10 @@ require([
     "less",
     "jquery",
     "vivus",
-    "kanji_module"],
+    "kanji_module",
+    "events_module"],
 
-    function (less, $, vivus, kanji) {
+    function (less, $, vivus, kanji, events) {
         /*
          * variables to configure where to specify JSON data and how to process it
          * YOU MAY NEED TO MODIFY THESE
@@ -52,5 +53,6 @@ require([
         //loadJSON(themeFile, lessAction);
         // call module's main function if data is succcessfully loaded
         loadJSON(kanjiFile, kanjiModuleAction);
+        events.init();
     }
 );
