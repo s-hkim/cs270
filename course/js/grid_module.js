@@ -10,7 +10,7 @@ define(['jquery','vivus'], function ($,vivus) {
     const OUTLINE_DUR = 20;
     const COL_DUR = 20;
     const ROW_DUR = 20;
-    const OUTLINE_DELAY = 7;
+    const OUTLINE_DELAY = 4;
     const COL_DELAY = 0;
     const ROW_DELAY = 0;
     const COLOR_DUR = 400;

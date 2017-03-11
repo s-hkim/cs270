@@ -35,25 +35,26 @@ require([
         //const themeFile = $('#script').attr('theme');
         const gridFile = folderPrefix + folderTheme + '/grid.json';
         const contentFile = folderPrefix + folderTheme + '/content.json';
-        const navFile = folderPrefix + folderTheme + '/chapters.json';
-        const hwFile = folderPrefix + folderTheme + '/calendar.json';
+        const hwFile = folderPrefix + folderTheme + '/chapters.json';
+        const calFile = folderPrefix + folderTheme + '/calendar.json';
         const resourcesFile = folderPrefix + folderTheme + '/resources.json';
         // actions to apply to JSON files
         //const lessAction = less.modifyVars;
         const gridModuleAction = grid.init;
         const contentModuleAction = content.init;
-        const navModuleAction = chapters.init;
-        const hwModuleAction = calendar.init;
+        const hwModuleAction = chapters.init;
+        const calModuleAction = calendar.init;
         const resourcesModuleAction = resources.init;
         /*
          * actually load JSON data and how to process it
          * YOU HOPEFULLY WILL NOT NEED TO MODIFY THIS
          */
         // given a JSON data file, apply the given action to it after it is loaded and parsed
-        function loadJSON(jsonFile, actionOnLoad) {
+        function loadJSON(jsonFile, actionOnLoad, callback) {
             $.getJSON(jsonFile, function (data) {
                 try {
                     actionOnLoad(data);
+                    typeof callback === 'function' && callback();
                 } catch (err) {
                     alert(err);
                 }
@@ -65,9 +66,10 @@ require([
         //loadJSON(themeFile, lessAction);
         // call module's main function if data is succcessfully loaded
         // order matters here
-        loadJSON(gridFile, gridModuleAction);
-        loadJSON(contentFile, contentModuleAction);
-        loadJSON(navFile, navModuleAction);
+        loadJSON(gridFile, gridModuleAction, function() {
+          loadJSON(contentFile, contentModuleAction);
+        });
+        loadJSON(calFile, calModuleAction);
         loadJSON(hwFile, hwModuleAction);
         loadJSON(resourcesFile, resourcesModuleAction);
         events.init();
