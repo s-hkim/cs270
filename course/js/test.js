@@ -53,6 +53,7 @@
          }
          $(function() {
             QUnit.test('test', function (assert) {
+              assert.expect(0);
               loadJSON(gridFile, gridModuleAction, function() {
                  loadJSON(contentFile, contentModuleAction, function() {
                    var $content = $('#content');
