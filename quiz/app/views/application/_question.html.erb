@@ -1,0 +1,18 @@
+<div id='quiz'>
+    <p>
+        <%= @currentQuestion['question'] %>
+    </p>
+    <ul>
+        <% @currentQuestion['choices'].each_with_index do |c, i| %>
+            <li><input type='radio' name='answer' value='<%= i %>' /><%= c %></li>
+        <% end %>
+        <input type='hidden' name='correct' value='<%= @currentQuestion['answer'] %>' />
+    </ul>
+</div>
+
+<div class='button' id='submit'>Submit</div>
+<% if @hasMissed %>
+    <div class='button' id='previous'>Retry previous</div>
+<% else %>
+    <div class='button disabled'>Retry previous</div>
+<% end %>

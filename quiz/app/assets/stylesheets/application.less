@@ -1,0 +1,75 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and LESS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/LESS files in this directory. 
+ *
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/*
+ * @author Gary Carino
+ */
+
+body {
+    font-family: Open Sans;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#quiz {
+    text-indent: 10px;
+}
+
+#container {
+    width: 50%;
+    margin: auto;
+    padding: 0 25px 40px 10px;
+    background-color: #1E90FF;
+    border: 4px solid #B0E0E6;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
+
+.button {
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+    border: 4px solid;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+.disabled {
+    opacity: 0.5;
+    background-color: gray;
+}

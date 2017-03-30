@@ -1,0 +1,13 @@
+[
+    {
+        "question": "What is the molecular formula for Glucose?",
+        "choices": [ "C2H4O2", "C6H12O6", "CH4", "K+" ],
+        "answer": 1
+    },
+    {
+        "question": "Which one of these is scientific term for &quot;Brain Freeze&quot;?",
+        "choices": [ "Hyacinthoides Italica","Sphenopalatine Ganglioneuralgia","Amaranthus Retroflexus","Amblyomma Americanum" ],
+        "answer": 1
+    }
+]
+
