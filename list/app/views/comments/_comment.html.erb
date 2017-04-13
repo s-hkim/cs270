@@ -1,0 +1,10 @@
+<div class="comment well" id=<%= 'comment-'+comment.id.to_s%>>
+    
+        <%= link_to 'Edit', edit_comment_path(comment) %> | <%= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' } %> |
+        <%= comment.created_at %> | 
+        <strong><%= comment.user.name %>:</strong>
+        <%= comment.content %>
+        
+    
+</div>
+

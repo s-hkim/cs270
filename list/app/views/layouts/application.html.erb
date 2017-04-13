@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Workspace</title>
+  <%= stylesheet_link_tag    'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><%= link_to "WELCOME", root_path %></li>
+        <li><%= link_to "POSTS", posts_path %></li>
+        <li><%= link_to "NEW POST", new_post_path %></li>
+        <% if user_signed_in?-%>
+          <li><%= link_to "YOUR COMMENTS", comments_path %></li>
+          <li><%= link_to "EDIT ACCOUNT", edit_user_registration_path %></li>
+          <li><%= link_to "SIGN OUT", destroy_user_session_path, method: 'delete' %></li>
+        <% else -%>
+          <li><%= link_to "SIGN IN", new_user_session_path %></li>
+          <li><%= link_to "REGISTER", new_user_registration_path %></li>
+        <% end -%>
+      </ul>
+    </div>
+  </nav>
+<%= yield %>
+
+</body>
+</html>
