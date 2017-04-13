@@ -5,8 +5,9 @@ Date completed: 4/12/17
 Time spent: about 7 hours  
 
 You should be able to view this running at: https://stark-falls-36193.herokuapp.com/
-login:
-    email: test@test
+
+login:  
+    email: test@test  
     password: 123456
 
 Resources used: https://ruby-doc.org/core-2.2.0/Dir.html, https://github.com/plataformatec/devise/wiki/How-To:-Allow-users-to-sign-in-using-their-username-or-email-address
