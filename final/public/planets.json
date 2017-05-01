@@ -1,0 +1,137 @@
+[
+  {
+    "name" : "Mercury",
+    "orbital_data" : {
+      "epoch_osculation" : "2451545.0",
+      "eccentricity" : "0.20563593",
+      "semi_major_axis" : "0.38709927",
+      "inclination" : "7.00497902",
+      "ascending_node_longitude" : "48.33076593",
+      "orbital_period" : "87.969",
+      "perihelion_argument" : "29.12703035",
+      "perihelion_longitude" : "77.45779628",
+      "mean_anomaly" : "174.79252722",
+      "mean_longitude" : "252.25032350"
+    }
+  },
+  {
+    "name" : "Venus",
+    "orbital_data" : {
+      "epoch_osculation" : "2451545.0",
+      "eccentricity" : "0.00677672",
+      "semi_major_axis" : "0.72333566",
+      "inclination" : "3.39467605",
+      "ascending_node_longitude" : "76.67984255",
+      "orbital_period" : "224.701",
+      "perihelion_argument" : "54.92262463",
+      "perihelion_longitude" : "131.60246718",
+      "mean_anomaly" : "50.37663232",
+      "mean_longitude" : "181.97909950"
+    }
+  },
+  {
+    "name" : "Earth",
+    "orbital_data" : {
+      "epoch_osculation" : "2451545.0",
+      "eccentricity" : "0.01671123",
+      "semi_major_axis" : "1.00000261",
+      "inclination" : "0.00005",
+      "ascending_node_longitude" : "348.73936",
+      "orbital_period" : "365.256",
+      "perihelion_argument" : "114.20783",
+      "perihelion_longitude" : "102.93768193",
+      "mean_anomaly" : "-2.47311027",
+      "mean_longitude" : "100.46457166"
+    }
+  },
+  {
+    "name" : "Mars",
+    "orbital_data" : {
+      "epoch_osculation" : "2451545.0",
+      "eccentricity" : "0.09339410",
+      "semi_major_axis" : "1.52371034",
+      "inclination" : "1.84969142",
+      "ascending_node_longitude" : "49.55953891",
+      "orbital_period" : "686.980",
+      "perihelion_argument" : "-73.5031685",
+      "perihelion_longitude" : "-23.94362959",
+      "mean_anomaly" : "19.39019754",
+      "mean_longitude" : "-4.55343205"
+    }
+  },
+  {
+    "name" : "Jupiter",
+    "orbital_data" : {
+      "epoch_osculation" : "2451545.0",
+      "eccentricity" : "0.04838624",
+      "semi_major_axis" : "5.20288700",
+      "inclination" : "1.30439695",
+      "ascending_node_longitude" : "100.47390909",
+      "orbital_period" : "4332.589",
+      "perihelion_argument" : "-85.74542926",
+      "perihelion_longitude" : "14.72847983",
+      "mean_anomaly" : "19.66796068",
+      "mean_longitude" : "34.39644051"
+    }
+  },
+  {
+    "name" : "Saturn",
+    "orbital_data" : {
+      "epoch_osculation" : "2451545.0",
+      "eccentricity" : "0.05386179",
+      "semi_major_axis" : "9.53667594",
+      "inclination" : "2.48599187",
+      "ascending_node_longitude" : "113.66242448",
+      "orbital_period" : "10759.22",
+      "perihelion_argument" : "-21.23048448",
+      "perihelion_longitude" : "92.43194",
+      "mean_anomaly" : "-42.48762",
+      "mean_longitude" : "49.94432"
+    }
+  },
+  {
+    "name" : "Uranus",
+    "orbital_data" : {
+      "epoch_osculation" : "2451545.0",
+      "eccentricity" : "0.04725744",
+      "semi_major_axis" : "19.18916464",
+      "inclination" : "0.77263783",
+      "ascending_node_longitude" : "74.01692503",
+      "orbital_period" : "30685.4",
+      "perihelion_argument" : "96.93735127",
+      "perihelion_longitude" : "170.95427630",
+      "mean_anomaly" : "142.28382821",
+      "mean_longitude" : "313.23810451"
+    }
+  },
+  {
+    "name" : "Neptune",
+    "orbital_data" : {
+      "epoch_osculation" : "2451545.0",
+      "eccentricity" : "0.00859048",
+      "semi_major_axis" : "30.06992276",
+      "inclination" : "1.77004347",
+      "ascending_node_longitude" : "131.78422574",
+      "orbital_period" : "60189",
+      "perihelion_argument" : "-86.81946347",
+      "perihelion_longitude" : "44.96476227",
+      "mean_anomaly" : "-100.08479196",
+      "mean_longitude" : "-55.12002969"
+    }
+  },
+  {
+    "name" : "Pluto",
+    "orbital_data" : {
+      "epoch_osculation" : "2451545.0",
+      "eccentricity" : "0.24882730",
+      "semi_major_axis" : "39.48211675",
+      "inclination" : "17.14001206",
+      "ascending_node_longitude" : "110.30393684",
+      "orbital_period" : "90560",
+      "perihelion_argument" : "113.76497945",
+      "perihelion_longitude" : "224.06891629",
+      "mean_anomaly" : "14.86012204",
+      "mean_longitude" : "238.92903833"
+    }
+  }
+]

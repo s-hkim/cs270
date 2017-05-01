@@ -1,0 +1,57 @@
+
+<%= smart_listing_controls_for(:asteroids) do %>
+<div class="filter input-append">
+    <%= text_field_tag :filter, '', class: "search", placeholder: "Search all NEOs", autocomplete: "off" %>
+</div>
+<% end%>
+<% unless smart_listing.empty?%>
+  
+
+  
+<table class="table">
+  <thead>
+    <tr>
+      <th><%= smart_listing.sortable "Name", :name %></th>
+      <th><%= smart_listing.sortable "NEO ID", :neo_reference_id %></th>
+      <th><%= smart_listing.sortable "Potentially Hazardous?", :is_potentially_hazardous_asteroid %></th>
+      <th><%= smart_listing.sortable "Estimated Diameter (m)", :estimated_diameter_min %></th>
+      <th><%= smart_listing.sortable "Next Close Approach (CA) to Earth", :approaches %></th>
+      <th>Relative Velocity at CA (km/s)</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% smart_listing.collection.each do |asteroid| %>
+        <tr class="asteroid" id=<%= 'asteroid-'+asteroid.id.to_s%>, role="button", data-toggle="collapse", data-parent="asteroid", class="expand-asteroid", href="#collapse<%= asteroid.id %>", aria-expanded="true" aria-controls="collapse<%= asteroid.id %>">
+            <td><%= asteroid.name %></td>
+            <td><%= asteroid.id %></td>
+            <td><%= asteroid.is_potentially_hazardous_asteroid %></td>
+            <td><%= asteroid.estimated_diameter_min.round(2) %> - <%= asteroid.estimated_diameter_max.round(2) %></td>
+            <td><%= next_app = asteroid.approaches.by_orbiting_body('Earth').next_approach[0]
+                    if next_app
+                        next_app["close_approach_date"]                    
+                    else
+                        'N/A'
+                    end
+            %></td>
+            <td><%= next_app = asteroid.approaches.by_orbiting_body('Earth').next_approach[0]
+                    if next_app
+                        next_app["relative_velocity"].round(2)                 
+                    else
+                        'N/A'
+                    end
+            %></td>
+        </tr>
+        <tr id='collapse<%= asteroid.id %>', class='collapse' aria-labelledby="collapse"<%= asteroid.id %>>
+            <td style="word-wrap: break-word;"><%= asteroid.nasa_jpl_url %></td>
+            <td><%= asteroid.name %></td>
+            <td colspan="4">stuff</td>
+        </tr>
+    <% end %>
+  </tbody>
+</table>
+<%= smart_listing.paginate %>
+<% else%>
+    <p class="warning">No records!</p>
+<% end%>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Workspace</title>
+  <%= include_gon %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">NEO Tracker</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><%= link_to "HOME", root_path %></li>
+        <li><%= link_to "ASTEROIDS", asteroids_path %></li>
+        <% if user_signed_in?-%>
+          <li><%= link_to "EDIT ACCOUNT", edit_user_registration_path %></li>
+          <li><%= link_to "SIGN OUT", destroy_user_session_path, method: 'delete' %></li>
+        <% else -%>
+          <li><%= link_to "SIGN IN", new_user_session_path %></li>
+          <li><%= link_to "REGISTER", new_user_registration_path %></li>
+        <% end -%>
+      </ul>
+    </div>
+  </nav>
+<%= yield %>
+
+</body>
+</html>

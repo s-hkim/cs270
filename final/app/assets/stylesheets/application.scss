@@ -1,0 +1,71 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *
+ *= require bootstrap-datepicker
+ *= require_self
+ */
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+$orbital: #1ed36f;
+$dark-orbital: #3c763d;
+$backing: #1a1a1a;
+$light-backing: #303030;
+$text-color: #eee;
+
+body {
+    background-color: $backing;
+    color: $text-color;
+}
+.navbar {
+    background-color: $light-backing;
+    border-color: transparent;
+}
+a:link, a:hover, a:visited {
+  color: $text-color;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: $text-color;
+}
+input {
+    background-color: $light-backing;
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+    z-index: 3;
+    color: $text-color;
+    background-color: $dark-orbital;
+    border-color: $dark-orbital;
+    cursor: default;
+}
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+    color: $dark-orbital;
+}
+.pagination > li > a, .pagination > li > span {
+    color: $dark-orbital;
+}
+.smart-listing {
+    margin: 10px 5px 0 5px;
+}
+.smart-listing-controls {
+    padding: 10px 0 10px 0;
+}
+.filter > input {
+    width: 50%;
+    text-align: center;
+}
+
+.collapse {
+    color: $backing;
+    background-color: $text-color;
+}
