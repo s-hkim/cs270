@@ -66,6 +66,18 @@ input {
 }
 
 .collapse {
-    color: $backing;
-    background-color: $text-color;
+}
+td.collapse-cell {
+    // height: 250px;
+    background-color: $dark-orbital;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.devise-bs {
+    color: $dark-orbital;
+}
+.btn {
+    background-color: $dark-orbital;
+    border-color: $light-backing;
 }

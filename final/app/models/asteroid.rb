@@ -1,5 +1,25 @@
 class Asteroid < ApplicationRecord
     has_many :approaches
+    has_and_belongs_to_many :users
+    
+    def next_earth_approach
+        next_app = self.approaches.by_orbiting_body('Earth').next_approach[0]
+        if next_app
+            next_app["close_approach_date"]                    
+        else
+            'N/A'
+        end
+    end
+    
+    def next_earth_vel
+        next_app = self.approaches.by_orbiting_body('Earth').next_approach[0]
+        if next_app
+            next_app["relative_velocity"].round(2)                 
+        else
+            'N/A'
+        end
+    end
+    
     def format_to_NAPI 
         parsed = self.as_json
         parsed["estimated_diameter"] = {

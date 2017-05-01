@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170430192546) do
+ActiveRecord::Schema.define(version: 20170501043617) do
 
   create_table "approaches", force: :cascade do |t|
     t.date     "close_approach_date"
@@ -52,6 +52,13 @@ ActiveRecord::Schema.define(version: 20170430192546) do
     t.string   "equinox"
     t.datetime "created_at",                        null: false
     t.datetime "updated_at",                        null: false
+  end
+
+  create_table "asteroids_users", id: false, force: :cascade do |t|
+    t.integer "asteroid_id", null: false
+    t.integer "user_id",     null: false
+    t.index ["asteroid_id", "user_id"], name: "index_asteroids_users_on_asteroid_id_and_user_id"
+    t.index ["user_id", "asteroid_id"], name: "index_asteroids_users_on_user_id_and_asteroid_id"
   end
 
   create_table "users", force: :cascade do |t|

@@ -38,5 +38,11 @@
   cursor: pointer;
  }
 .datepicker {
+ background-color: #303030;
  z-index:100;
+ color:  #1ed36f;
+}
+.datepicker table tr td span.active, .datepicker table tr td span.active:hover, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td.active, .datepicker table tr td.active:hover, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover {
+ background-color: #3c763d;
+ background-image: linear-gradient(to bottom, #3cc83d, #3c763d);
 }

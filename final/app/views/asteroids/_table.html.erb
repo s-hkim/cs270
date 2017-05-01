@@ -15,9 +15,8 @@
       <th><%= smart_listing.sortable "NEO ID", :neo_reference_id %></th>
       <th><%= smart_listing.sortable "Potentially Hazardous?", :is_potentially_hazardous_asteroid %></th>
       <th><%= smart_listing.sortable "Estimated Diameter (m)", :estimated_diameter_min %></th>
-      <th><%= smart_listing.sortable "Next Close Approach (CA) to Earth", :approaches %></th>
+      <th>Next Close Approach (CA) to Earth</th>
       <th>Relative Velocity at CA (km/s)</th>
-      <th colspan="3"></th>
     </tr>
   </thead>
 
@@ -28,25 +27,15 @@
             <td><%= asteroid.id %></td>
             <td><%= asteroid.is_potentially_hazardous_asteroid %></td>
             <td><%= asteroid.estimated_diameter_min.round(2) %> - <%= asteroid.estimated_diameter_max.round(2) %></td>
-            <td><%= next_app = asteroid.approaches.by_orbiting_body('Earth').next_approach[0]
-                    if next_app
-                        next_app["close_approach_date"]                    
-                    else
-                        'N/A'
-                    end
-            %></td>
-            <td><%= next_app = asteroid.approaches.by_orbiting_body('Earth').next_approach[0]
-                    if next_app
-                        next_app["relative_velocity"].round(2)                 
-                    else
-                        'N/A'
-                    end
-            %></td>
+            <td><%= asteroid.next_earth_approach %></td>
+            <td><%= asteroid.next_earth_vel %></td>
         </tr>
         <tr id='collapse<%= asteroid.id %>', class='collapse' aria-labelledby="collapse"<%= asteroid.id %>>
-            <td style="word-wrap: break-word;"><%= asteroid.nasa_jpl_url %></td>
-            <td><%= asteroid.name %></td>
-            <td colspan="4">stuff</td>
+            <td class="collapse-cell" colspan="2"></td>
+            <td class="collapse-cell">JPL web page:</td>
+            <td class="collapse-cell"><%= link_to asteroid.nasa_jpl_url, asteroid.nasa_jpl_url %></td>
+            <td class="collapse-cell"></td>
+            <td class="collapse-cell"><%= link_to "Add to favorites", favorites_path + "/" + asteroid.id.to_s %></td>
         </tr>
     <% end %>
   </tbody>

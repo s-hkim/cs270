@@ -2,7 +2,11 @@ Rails.application.routes.draw do
   devise_for :users
   
   get 'asteroids' => 'asteroids#index'
-  get 'asteroids/:id' => 'asteroids#show'
+  get 'data' => 'asteroids#retrieve'
+  
+  get 'favorites' => 'favorites#index'
+  get '/favorites/:asteroid/destroy' => 'favorites#destroy', as: :remove_favorite
+  get '/favorites/:asteroid' => 'favorites#add'
   
   get 'updateDB' => 'application#updateDB'
 
@@ -18,7 +22,7 @@ Rails.application.routes.draw do
   #   get 'products/:id' => 'catalog#view'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
-  #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
+    # get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products

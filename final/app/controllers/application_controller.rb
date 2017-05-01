@@ -5,7 +5,11 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
   def index
-    @asteroids = Asteroid.all
+    if user_signed_in? and current_user.admin?
+      
+    else
+      redirect_to asteroids_path
+    end
   end
   
   def updateDB

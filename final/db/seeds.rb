@@ -6,4 +6,12 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-User.create(email: 'admin@admin', admin: true)
+
+admin=User.new({ email: 'admin@admin',
+               password: 'password', password_confirmation: 'password'})
+admin.toggle!(:admin)
+if admin.valid?
+  admin.save()
+else
+  puts "invalid admin"
+end

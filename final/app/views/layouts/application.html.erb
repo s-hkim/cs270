@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Workspace</title>
+  <title>NEO Tracker</title>
   <%= include_gon %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -14,9 +14,12 @@
         <a class="navbar-brand" href="#">NEO Tracker</a>
       </div>
       <ul class="nav navbar-nav">
-        <li><%= link_to "HOME", root_path %></li>
+        <% if user_signed_in? and current_user.admin? -%>
+        <li><%= link_to "ADMIN", root_path %></li>
+        <% end -%>
         <li><%= link_to "ASTEROIDS", asteroids_path %></li>
         <% if user_signed_in?-%>
+          <li><%= link_to "FAVORITES", favorites_path %></li>
           <li><%= link_to "EDIT ACCOUNT", edit_user_registration_path %></li>
           <li><%= link_to "SIGN OUT", destroy_user_session_path, method: 'delete' %></li>
         <% else -%>
