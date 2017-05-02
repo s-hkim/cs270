@@ -13,6 +13,9 @@ function Date_getJD() {
 };
 
 var util = {
+  /*
+  functions to convert dates to Julian ephemeris dates
+  */
   // https://stackoverflow.com/questions/26370688/convert-a-julian-date-to-regular-date-in-javascript
   jdUTC : function (Y, M, D, H, m, s, ms) { // M is Jan = 0, Feb = 1, etc.
     // Add local hour offset to `H` or minute offset to `m` for local time

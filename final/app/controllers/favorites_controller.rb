@@ -9,7 +9,7 @@ class FavoritesController < ApplicationController
     end
   end
   def index
-   
+    # show a list of user's saved asteroids
   end
 
   def show

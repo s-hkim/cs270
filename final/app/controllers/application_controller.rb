@@ -1,19 +1,20 @@
 class ApplicationController < ActionController::Base
-  
+
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
-  
+
   def index
     if user_signed_in? and current_user.admin?
-      
+      # show the admin page
     else
       redirect_to asteroids_path
     end
   end
-  
+
+  # pull data from the NASA API and update the database
   def updateDB
-    page_limit = 10
+    page_limit = 10     # number of pages to retrieve (trying to get all >800 pages results in the request timing out)
     counter = page_limit
     visited = []
     u = 'https://api.nasa.gov/neo/rest/v1/neo/browse'
@@ -21,7 +22,7 @@ class ApplicationController < ActionController::Base
     uri.query = URI.encode_www_form({
       api_key: Rails.application.secrets.neo_api_key
     })
-    loop do 
+    loop do
       results = Net::HTTP.get_response(uri)
       if results.is_a?(Net::HTTPSuccess)
         asteroids = JSON.parse(results.body)
@@ -58,15 +59,15 @@ class ApplicationController < ActionController::Base
               equinox: i["orbital_data"]["equinox"]
             }
           rescue
-            logger.error 'error parsing data'  
+            logger.error 'error parsing data'
             next
           end
           ast = {}
           begin
+              # check if asteroid already exists
               ast = Asteroid.find(parsed[:id])
               ast.update_attributes(parsed)
           rescue
-            
             begin
               ast = Asteroid.create!(parsed)
             rescue
@@ -74,8 +75,8 @@ class ApplicationController < ActionController::Base
               next
             end
           end
-          
-          
+
+
           i["close_approach_data"].each do |j|
             appr = {
               close_approach_date: j["close_approach_date"],
@@ -110,9 +111,9 @@ class ApplicationController < ActionController::Base
       end
       break if counter <= 0 || visited.include?(u) || !u.present?
       uri = URI(u)
-    end 
-    
+    end
+
     redirect_to root_path
   end
-  
+
 end
